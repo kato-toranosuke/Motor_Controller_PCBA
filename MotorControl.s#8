@@ -2455,7 +2455,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3556" drill="0">
+<clearance class="0" value="0.3048"/>
+</class>
+<class number="1" name="Power" width="1.016" drill="0">
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <groups>
@@ -2477,8 +2481,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="U4" library="SPX3940AM3-L-3-3:TR" deviceset="SPX3940AM3-L-3-3/TR" device=""/>
 <part name="C8" library="OPL_Capacitor" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="10uf"/>
 <part name="C9" library="TCJB685M025R0150" deviceset="TCJB685M025R0150-SELFMADE" device="" value="6.8uF"/>
-<part name="R4" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
 <part name="R3" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
+<part name="R2" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
 <part name="RPROG" library="OPL_Resistor" deviceset="SMD-RES-1.2K-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="1.2K"/>
 <part name="D1" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-RED(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="RED-0805"/>
 <part name="USB1" library="OPL_Connector" deviceset="MICRO-USB-SMD(ZX62-B-5PA)" device="" package3d_urn="urn:adsk.eagle:package:8004561/1" value="ZX62-B-5PA"/>
@@ -2493,7 +2497,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="C7" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="SUPPLY18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
-<part name="R5" library="OPL_Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K"/>
+<part name="R4" library="OPL_Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K"/>
 <part name="EN_SW" library="OPL_Switch" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" package3d_urn="urn:adsk.eagle:package:8005114/1"/>
 <part name="SUPPLY19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2531,6 +2535,9 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="R9" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
 <part name="R12" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
 <part name="R13" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2564,19 +2571,19 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="132.4356" y="153.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="131.8006" y="151.3586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="C8" gate="G$1" x="147.32" y="129.54" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="151.13" y="135.89" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="151.13" y="128.27" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="C8" gate="G$1" x="157.48" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="161.29" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="161.29" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="C9" gate="G$1" x="119.38" y="129.54" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="123.19" y="135.89" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="123.19" y="128.27" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="C9" gate="G$1" x="119.38" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="123.19" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="123.19" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="25.4" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="R3" gate="G$1" x="25.4" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="26.67" y="151.13" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="22.86" y="151.13" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="R2" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="31.75" y="151.13" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="27.94" y="151.13" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
@@ -2633,7 +2640,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="138.43" y="6.35" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="6.35" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="139.7" y="25.4" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<instance part="R4" gate="G$1" x="139.7" y="25.4" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="138.43" y="21.59" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="21.59" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
@@ -2774,11 +2781,20 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="6.35" y="72.39" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="10.16" y="72.39" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
+<instance part="GND3" gate="1" x="119.38" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="116.84" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="157.48" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="154.94" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="165.1" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="162.56" y="119.38" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
@@ -2832,22 +2848,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="243.84" y="22.86"/>
 </segment>
 <segment>
-<pinref part="U4" gate="A" pin="GND"/>
-<wire x1="154.94" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<pinref part="C9" gate="G$1" pin="-"/>
-<wire x1="160.02" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="162.56" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="119.38" y1="125.73" x2="119.38" y2="121.92" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="119.38" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="160.02" y1="121.92" x2="160.02" y2="142.24" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<junction x="160.02" y="142.24" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<pinref part="C8" gate="G$1" pin="-"/>
-<wire x1="147.32" y1="125.73" x2="147.32" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="147.32" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="162.56" y1="124.46" x2="162.56" y2="142.24" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<junction x="162.56" y="142.24" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="165.1" y1="142.24" x2="165.1" y2="116.84" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="165.1" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="114.3" x2="30.48" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="U3" gate="G$1" pin="TEMP"/>
@@ -2898,9 +2898,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="50.8" y1="203.2" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <junction x="50.8" y="142.24"/>
 <label x="91.44" y="200.66" size="1.778" layer="95"/>
-<wire x1="101.6" y1="116.84" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<label x="119.38" y="114.3" size="1.778" layer="95"/>
 <pinref part="SUPPLY8" gate="1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="BAT" gate="G$1" pin="P$2"/>
@@ -2953,8 +2950,24 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="27.94" y1="-33.02" x2="27.94" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="27.94" y="-22.86" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="-"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="119.38" y1="130.81" x2="119.38" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="-"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="157.48" y1="130.81" x2="157.48" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+</segment>
+<segment>
+<pinref part="U4" gate="A" pin="GND"/>
+<wire x1="154.94" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="165.1" y1="142.24" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+</segment>
 </net>
-<net name="AO1" class="0">
+<net name="AO1" class="1">
 <segment>
 <pinref part="IC2" gate="G$1" pin="AO1_1"/>
 <pinref part="IC2" gate="G$1" pin="AO1_2"/>
@@ -2968,7 +2981,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="119.38" y1="218.44" x2="120.65" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AO2" class="0">
+<net name="AO2" class="1">
 <segment>
 <wire x1="149.86" y1="208.28" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="AO2_2"/>
@@ -2983,7 +2996,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="121.92" y1="218.44" x2="123.19" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO1" class="0">
+<net name="BO1" class="1">
 <segment>
 <wire x1="144.78" y1="198.12" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO1_2"/>
@@ -2998,7 +3011,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="124.46" y1="218.44" x2="125.73" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO2" class="0">
+<net name="BO2" class="1">
 <segment>
 <wire x1="147.32" y1="200.66" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO2_2"/>
@@ -3052,7 +3065,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="21.59" x2="139.7" y2="17.78" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="IC1" gate="G$1" pin="EN"/>
@@ -3085,7 +3098,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="!CHRG"/>
 <wire x1="25.4" y1="143.51" x2="25.4" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
@@ -3094,26 +3107,26 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="D1" gate="G$1" pin="-"/>
 <wire x1="19.05" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="152.4" x2="25.4" y2="151.13" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!STDBY"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="143.51" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="151.13" x2="30.48" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="D4" gate="G$1" pin="-"/>
 <wire x1="30.48" y1="162.56" x2="19.05" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
-<net name="VIN+" class="0">
+<net name="VIN+" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="+"/>
 <wire x1="11.43" y1="152.4" x2="7.62" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
@@ -3138,10 +3151,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="7.62" y="86.36"/>
 </segment>
 </net>
-<net name="B+" class="0">
+<net name="B+" class="1">
 <segment>
 <pinref part="U4" gate="A" pin="VIN"/>
-<wire x1="119.38" y1="144.78" x2="119.38" y2="133.35" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="119.38" y1="144.78" x2="119.38" y2="138.43" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <junction x="119.38" y="144.78" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="C9" gate="G$1" pin="+"/>
 <wire x1="119.38" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
@@ -3278,32 +3291,19 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <label x="175.26" y="30.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="VOUT"/>
-<wire x1="154.94" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="147.32" y1="133.35" x2="147.32" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="147.32" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="157.48" y1="134.62" x2="157.48" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<pinref part="POWER_SW" gate="1" pin="P"/>
-<wire x1="157.48" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<junction x="157.48" y="144.78"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="POWER_SW" gate="1" pin="S"/>
 <wire x1="170.18" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="D3" gate="G$1" pin="+"/>
 <wire x1="172.72" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="173.99" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="172.72" y1="134.62" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <junction x="172.72" y="144.78"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="35.56" x2="139.7" y2="29.21" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
@@ -3405,7 +3405,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="60.96" y="-68.58" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="1">
 <segment>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -3469,20 +3469,25 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="7.62" y1="69.85" x2="7.62" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="POWER_SW" gate="1" pin="P"/>
+<pinref part="U4" gate="A" pin="VOUT"/>
+<wire x1="154.94" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="157.48" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="157.48" y1="138.43" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
+<junction x="157.48" y="144.78"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,76.2,-81.28,U1,3,GND,,,"/>
-<approved hash="104,1,50.8,-81.28,U1,6,GND,,,"/>
-<approved hash="104,1,45.72,152.4,IC3,VCC,N$1,,,"/>
-<approved hash="104,1,60.96,152.4,IC3,GND,B-,,,"/>
-<approved hash="117,1,71.12,-104.14,SHIELD,,,,,"/>
-<approved hash="110,1,76.2,172.72,GND,B-,,,,"/>
-<approved hash="110,1,76.2,172.72,GND,B-,,,,"/>
-<approved hash="113,1,210.624,224.659,PULLUP,,,,,"/>
-<approved hash="113,1,153.232,12.7,EN_SW,,,,,"/>
-<approved hash="113,1,242.132,35.56,BOOT_SW,,,,,"/>
+<approved hash="117,1,73.66,-104.14,SHIELD,,,,,"/>
+<approved hash="113,1,210.594,224.659,PULLUP,,,,,"/>
+<approved hash="113,1,153.251,12.7,EN_SW,,,,,"/>
+<approved hash="113,1,242.151,35.56,BOOT_SW,,,,,"/>
 <approved hash="113,1,169.845,148.295,POWER_SW,,,,,"/>
 </errors>
 </schematic>

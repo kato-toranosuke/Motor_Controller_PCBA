@@ -2476,8 +2476,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <class number="0" name="default" width="0.3556" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="Power" width="0.9144" drill="0">
+<class number="1" name="Power" width="0.508" drill="0">
 <clearance class="1" value="0.508"/>
+</class>
+<class number="2" name="Motor" width="0.508" drill="0">
+<clearance class="2" value="0.3556"/>
 </class>
 </classes>
 <groups>
@@ -2985,7 +2988,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="165.1" y1="142.24" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 </net>
-<net name="AO1" class="1">
+<net name="AO1" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="AO1_1"/>
 <pinref part="IC2" gate="G$1" pin="AO1_2"/>
@@ -2999,7 +3002,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="119.38" y1="218.44" x2="120.65" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AO2" class="1">
+<net name="AO2" class="2">
 <segment>
 <wire x1="149.86" y1="208.28" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="AO2_2"/>
@@ -3014,7 +3017,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="121.92" y1="218.44" x2="123.19" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO1" class="1">
+<net name="BO1" class="2">
 <segment>
 <wire x1="144.78" y1="198.12" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO1_2"/>
@@ -3029,7 +3032,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="124.46" y1="218.44" x2="125.73" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO2" class="1">
+<net name="BO2" class="2">
 <segment>
 <wire x1="147.32" y1="200.66" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO2_2"/>
@@ -3487,7 +3490,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="7.62" y1="69.85" x2="7.62" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="POWER_SW" class="0">
 <segment>
 <pinref part="POWER_SW" gate="1" pin="P"/>
 <pinref part="U4" gate="A" pin="VOUT"/>

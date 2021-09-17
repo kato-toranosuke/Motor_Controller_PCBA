@@ -296,6 +296,8 @@ UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/Seeed_Fusion_PCBA_OPL_C
 UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/Seeed_Fusion_PCBA_OPL_Component_Library_for_Eagle/OPL_Resistor.lbr"
 UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/Seeed_Fusion_PCBA_OPL_Component_Library_for_Eagle/OPL_Sensor-Transducer.lbr"
 UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/Seeed_Fusion_PCBA_OPL_Component_Library_for_Eagle/OPL_Switch.lbr"
+UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/LI0805H151R-10.lbr"
+UsedLibrary="/Users/toranosuke/Documents/EAGLE/libraries/INTERFACE-FT230XS-R_SSOP16_.lbr"
 
 [Win_1]
 Type="Control Panel"
