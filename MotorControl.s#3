@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2476,7 +2476,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <class number="0" name="default" width="0.3556" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="Power" width="0.508" drill="0">
+<class number="1" name="Power" width="0.8636" drill="0">
 <clearance class="1" value="0.508"/>
 </class>
 <class number="2" name="Motor" width="0.508" drill="0">
@@ -2496,66 +2496,66 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="SUPPLY2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U3" library="TP4056" deviceset="TP4056" device=""/>
-<part name="IC2" library="TB6612FNG" library_urn="urn:adsk.eagle:library:30573347" deviceset="TB6612FNG" device="" package3d_urn="urn:adsk.eagle:package:30573350/2"/>
+<part name="CHARGER-IC" library="TP4056" deviceset="TP4056" device=""/>
+<part name="DRIVER-IC" library="TB6612FNG" library_urn="urn:adsk.eagle:library:30573347" deviceset="TB6612FNG" device="" package3d_urn="urn:adsk.eagle:package:30573350/2"/>
 <part name="PULLUP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="U4" library="SPX3940AM3-L-3-3:TR" deviceset="SPX3940AM3-L-3-3/TR" device=""/>
+<part name="LDO-IC" library="SPX3940AM3-L-3-3:TR" deviceset="SPX3940AM3-L-3-3/TR" device=""/>
 <part name="C8" library="OPL_Capacitor" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="10uf"/>
 <part name="C9" library="TCJB685M025R0150" deviceset="TCJB685M025R0150-SELFMADE" device="" value="6.8uF"/>
 <part name="R3" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
 <part name="R2" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
 <part name="RPROG" library="OPL_Resistor" deviceset="SMD-RES-1.2K-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="1.2K"/>
-<part name="D1" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-RED(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="RED-0805"/>
+<part name="BAT-RED" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-RED(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="RED-0805"/>
 <part name="USB1" library="OPL_Connector" deviceset="MICRO-USB-SMD(ZX62-B-5PA)" device="" package3d_urn="urn:adsk.eagle:package:8004561/1" value="ZX62-B-5PA"/>
-<part name="C5" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
+<part name="C4" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
 <part name="R7" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
-<part name="F1" library="SMD0805R035SF" deviceset="SMD0805R035SF" device=""/>
+<part name="HUSE" library="SMD0805R035SF" deviceset="SMD0805R035SF" device=""/>
 <part name="R1" library="OPL_Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K"/>
-<part name="C3" library="OPL_Capacitor" deviceset="CERAMIC-10UF-25V-10%-X5R(1206)" device="" package3d_urn="urn:adsk.eagle:package:8004280/1" value="10uf"/>
-<part name="IC1" library="ESP32-WROOM-32" library_urn="urn:adsk.eagle:library:30575316" deviceset="ESP32-WROOM-32E" device="8M" package3d_urn="urn:adsk.eagle:package:30670992/1"/>
+<part name="C2" library="OPL_Capacitor" deviceset="CERAMIC-10UF-25V-10%-X5R(1206)" device="" package3d_urn="urn:adsk.eagle:package:8004280/1" value="10uf"/>
+<part name="ESP32" library="ESP32-WROOM-32" library_urn="urn:adsk.eagle:library:30575316" deviceset="ESP32-WROOM-32E" device="8M" package3d_urn="urn:adsk.eagle:package:30670992/1"/>
 <part name="SUPPLY14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="OPL_Capacitor" deviceset="CERAMIC-22UF-16V-10%-X7R(1206)" device="" package3d_urn="urn:adsk.eagle:package:8004280/1" value="22uF/16V(10%)"/>
-<part name="C7" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
+<part name="C3" library="OPL_Capacitor" deviceset="CERAMIC-22UF-16V-10%-X7R(1206)" device="" package3d_urn="urn:adsk.eagle:package:8004280/1" value="22uF/16V(10%)"/>
+<part name="C6" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="SUPPLY18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
+<part name="C7" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="R4" library="OPL_Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K"/>
 <part name="EN_SW" library="OPL_Switch" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" package3d_urn="urn:adsk.eagle:package:8005114/1"/>
 <part name="SUPPLY19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BOOT_SW" library="OPL_Switch" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" package3d_urn="urn:adsk.eagle:package:8005114/1"/>
+<part name="BOOT-SW" library="OPL_Switch" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" package3d_urn="urn:adsk.eagle:package:8005114/1"/>
 <part name="C12" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="BAT" library="OPL_Connector" deviceset="DIP-JST-2P-2.0" device="" package3d_urn="urn:adsk.eagle:package:8004542/1" value="2p-2.0"/>
 <part name="C13" library="OPL_Capacitor" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
-<part name="D4" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-BLUE(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="CLEAR-BLUE-0805"/>
-<part name="C2" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
-<part name="MOTOR_PIN" library="OPL_Connector" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:8004499/1" value="4p-2.54"/>
-<part name="D2" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-GREEN(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="GREEN-0805"/>
+<part name="BAT-BLUE" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-BLUE(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="CLEAR-BLUE-0805"/>
+<part name="C1" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
+<part name="MOTOR-PIN" library="OPL_Connector" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:8004499/1" value="4p-2.54"/>
+<part name="USB-TO-SERIAL-LED" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-GREEN(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="GREEN-0805"/>
 <part name="SUPPLY8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="POWER_SW" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="MS243" device="" package3d_urn="urn:adsk.eagle:package:27683/1"/>
+<part name="PWR-SW" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="MS243" device="" package3d_urn="urn:adsk.eagle:package:27683/1"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="D3" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-YELLOW(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="YELLOW-0805"/>
+<part name="PWR-LED" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-YELLOW(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="YELLOW-0805"/>
 <part name="R6" library="OPL_Resistor" deviceset="SMD-RES-300R-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="300R"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="E1" library="LI0805H151R-10" deviceset="LI0805H151R-10" device=""/>
-<part name="U5" library="INTERFACE-FT230XS-R_SSOP16_" deviceset="INTERFACE-FT230XS-R(SSOP16)" device=""/>
+<part name="FERRITE-BEAD" library="LI0805H151R-10" deviceset="LI0805H151R-10" device=""/>
+<part name="CNV-IC" library="INTERFACE-FT230XS-R_SSOP16_" deviceset="INTERFACE-FT230XS-R(SSOP16)" device=""/>
 <part name="R10" library="OPL_Resistor" deviceset="SMD-RES-27R-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="27R"/>
 <part name="R11" library="OPL_Resistor" deviceset="SMD-RES-27R-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="27R"/>
 <part name="C14" library="OPL_Capacitor" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="47PF"/>
 <part name="C15" library="OPL_Capacitor" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="47PF"/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="OPL_Capacitor" deviceset="CERAMIC-10NF-50V-5%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10nf"/>
+<part name="C5" library="OPL_Capacitor" deviceset="CERAMIC-10NF-50V-5%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10nf"/>
 <part name="C16" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
-<part name="C17" library="OPL_Capacitor" deviceset="TANTALUM-SMD-4.7UF-16V(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="4.7uf"/>
+<part name="C10" library="OPL_Capacitor" deviceset="TANTALUM-SMD-4.7UF-16V(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="4.7uf"/>
 <part name="SUPPLY5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
 <part name="R9" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
 <part name="R12" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
-<part name="R13" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
+<part name="R5" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2577,10 +2577,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="SUPPLY7" gate="1" x="88.9" y="-35.56" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="VALUE" x="92.075" y="-37.465" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U3" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="CHARGER-IC" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="40.64" y="116.84" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="160.02" y="210.82" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
+<instance part="DRIVER-IC" gate="G$1" x="160.02" y="210.82" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
 <attribute name="NAME" x="166.37" y="218.44" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="166.37" y="215.9" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2588,7 +2588,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="207.645" y="219.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="218.44" y="219.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U4" gate="A" x="116.84" y="144.78" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<instance part="LDO-IC" gate="A" x="116.84" y="144.78" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
 <attribute name="NAME" x="132.4356" y="153.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="131.8006" y="151.3586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
@@ -2612,14 +2612,14 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="24.13" y="100.33" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="27.94" y="100.33" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="D1" gate="G$1" x="15.24" y="152.4" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="BAT-RED" gate="G$1" x="15.24" y="152.4" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="7.62" y="153.67" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="10.16" y="147.32" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="USB1" gate="G$1" x="66.04" y="-114.3" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="52.578" y="-124.46" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="C5" gate="G$1" x="73.66" y="-83.82" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="C4" gate="G$1" x="73.66" y="-83.82" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="77.47" y="-85.09" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="77.47" y="-81.28" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
@@ -2627,7 +2627,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="16.51" y="1.27" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="12.7" y="1.27" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="F1" gate="G$1" x="15.24" y="-76.2" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="HUSE" gate="G$1" x="15.24" y="-76.2" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="21.59" y="-80.01" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="19.05" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
@@ -2635,29 +2635,29 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="212.09" y="201.93" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="215.9" y="201.93" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C3" gate="G$1" x="142.24" y="203.2" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
+<instance part="C2" gate="G$1" x="142.24" y="203.2" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
 <attribute name="NAME" x="138.43" y="204.47" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="138.43" y="200.66" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="IC1" gate="G$1" x="182.88" y="48.26" smashed="yes" grouprefs="MICRO-COMPUTER">
+<instance part="ESP32" gate="G$1" x="182.88" y="48.26" smashed="yes" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="217.17" y="55.88" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="217.17" y="53.34" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="SUPPLY14" gate="1" x="119.38" y="20.32" smashed="yes" grouprefs="MICRO-COMPUTER">
 <attribute name="VALUE" x="117.475" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="119.38" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<instance part="C3" gate="G$1" x="119.38" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="118.11" y="31.75" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="121.92" y="31.75" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C7" gate="G$1" x="127" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<instance part="C6" gate="G$1" x="127" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="125.73" y="31.75" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="129.54" y="31.75" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="SUPPLY18" gate="1" x="139.7" y="-5.08" smashed="yes" grouprefs="MICRO-COMPUTER">
 <attribute name="VALUE" x="137.795" y="-8.255" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="139.7" y="10.16" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<instance part="C7" gate="G$1" x="139.7" y="10.16" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="138.43" y="6.35" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="142.24" y="6.35" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
@@ -2675,7 +2675,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="SUPPLY20" gate="1" x="243.84" y="20.32" smashed="yes" grouprefs="MICRO-COMPUTER">
 <attribute name="VALUE" x="241.935" y="17.145" size="1.778" layer="96"/>
 </instance>
-<instance part="BOOT_SW" gate="G$1" x="241.3" y="35.56" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
+<instance part="BOOT-SW" gate="G$1" x="241.3" y="35.56" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
 <attribute name="NAME" x="246.38" y="40.64" size="1.27" layer="95" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="234.95" y="40.64" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
@@ -2695,33 +2695,33 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="46.99" y="140.97" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="46.99" y="144.78" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="D4" gate="G$1" x="15.24" y="162.56" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="BAT-BLUE" gate="G$1" x="15.24" y="162.56" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="7.62" y="163.83" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="10.16" y="157.48" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C2" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="C1" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="31.75" y="85.09" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="88.9" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="MOTOR_PIN" gate="G$1" x="124.46" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
+<instance part="MOTOR-PIN" gate="G$1" x="124.46" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
 <attribute name="NAME" x="130.81" y="231.14" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="118.11" y="222.25" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="D2" gate="G$1" x="15.24" y="10.16" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="USB-TO-SERIAL-LED" gate="G$1" x="15.24" y="10.16" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="13.97" y="2.54" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="20.32" y="5.08" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="SUPPLY8" gate="1" x="50.8" y="78.74" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="VALUE" x="48.895" y="75.565" size="1.778" layer="96"/>
 </instance>
-<instance part="POWER_SW" gate="1" x="165.1" y="147.32" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<instance part="PWR-SW" gate="1" x="165.1" y="147.32" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
 <attribute name="NAME" x="168.275" y="151.13" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.275" y="148.59" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="190.5" y="144.78" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
 <attribute name="VALUE" x="185.42" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="177.8" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<instance part="PWR-LED" gate="G$1" x="177.8" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
 <attribute name="NAME" x="170.18" y="135.89" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="172.72" y="129.54" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -2744,11 +2744,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="GND2" gate="1" x="208.28" y="195.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="210.82" y="193.04" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="E1" gate="G$1" x="15.24" y="-63.5" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="FERRITE-BEAD" gate="G$1" x="15.24" y="-63.5" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="20.32148125" y="-55.875559375" size="2.54148125" layer="95" rot="R270"/>
 <attribute name="VALUE" x="7.613359375" y="-55.87003125" size="2.54331875" layer="96" rot="R270"/>
 </instance>
-<instance part="U5" gate="G$1" x="58.42" y="-38.1" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="CNV-IC" gate="G$1" x="58.42" y="-38.1" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="43.1786" y="-52.0713" size="1.27011875" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="76.1797" y="-30.47323125" size="1.271690625" layer="96" ratio="10" rot="R90"/>
 </instance>
@@ -2771,7 +2771,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <instance part="SUPPLY3" gate="1" x="88.9" y="-68.58" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="VALUE" x="92.075" y="-70.485" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C6" gate="G$1" x="35.56" y="-96.52" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="C5" gate="G$1" x="35.56" y="-96.52" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="31.75" y="-95.25" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="31.75" y="-99.06" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -2779,7 +2779,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="26.67" y="-34.29" size="1.27" layer="95" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="-30.48" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="C17" gate="G$1" x="22.86" y="-22.86" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<instance part="C10" gate="G$1" x="22.86" y="-22.86" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
 <attribute name="NAME" x="16.51" y="-19.05" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="24.13" y="-19.05" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -2798,7 +2798,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <attribute name="NAME" x="6.35" y="62.23" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="10.16" y="62.23" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="7.62" y="76.2" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<instance part="R5" gate="G$1" x="7.62" y="76.2" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
 <attribute name="NAME" x="6.35" y="72.39" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="10.16" y="72.39" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
@@ -2817,27 +2817,27 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <nets>
 <net name="GND" class="1">
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
 <wire x1="77.47" y1="-83.82" x2="86.36" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="1" pin="GND"/>
 <wire x1="15.24" y1="13.97" x2="15.24" y2="17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="D2" gate="G$1" pin="-"/>
+<pinref part="USB-TO-SERIAL-LED" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="1" pin="GND"/>
 <wire x1="119.38" y1="31.75" x2="119.38" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="119.38" y1="27.94" x2="119.38" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="127" y1="31.75" x2="127" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="127" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <junction x="119.38" y="27.94" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="1" pin="GND"/>
 <wire x1="139.7" y1="6.35" x2="139.7" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <junction x="139.7" y="-2.54" grouprefs="MICRO-COMPUTER"/>
@@ -2850,18 +2850,18 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="154.94" y="-2.54" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND_3"/>
+<pinref part="ESP32" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY19" gate="1" pin="GND"/>
 <wire x1="220.98" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="226.06" y1="15.24" x2="228.6" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<pinref part="IC1" gate="G$1" pin="GND_4"/>
+<pinref part="ESP32" gate="G$1" pin="GND_4"/>
 <wire x1="220.98" y1="12.7" x2="226.06" y2="12.7" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="226.06" y1="12.7" x2="226.06" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <junction x="226.06" y="15.24" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="1" pin="GND"/>
-<pinref part="BOOT_SW" gate="G$1" pin="A1"/>
+<pinref part="BOOT-SW" gate="G$1" pin="A1"/>
 <wire x1="243.84" y1="26.67" x2="243.84" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="254" y1="34.29" x2="254" y2="22.86" width="0.1524" layer="91"/>
@@ -2869,9 +2869,9 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="243.84" y="22.86"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="114.3" x2="30.48" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="U3" gate="G$1" pin="TEMP"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="TEMP"/>
 <wire x1="20.32" y1="114.3" x2="20.32" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="20.32" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="RPROG" gate="G$1" pin="1"/>
@@ -2886,29 +2886,29 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="30.48" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="30.48" y="96.52" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="50.8" y="96.52" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="31.75" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="50.8" y="86.36" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="195.58" x2="200.66" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="200.66" y1="195.58" x2="205.74" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="200.66" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="200.66" y1="177.8" x2="200.66" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="138.43" y1="203.2" x2="134.62" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="134.62" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="134.62" y1="203.2" x2="134.62" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="PGND2_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PGND2_2"/>
 <wire x1="154.94" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="PGND1_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PGND1_1"/>
 <wire x1="160.02" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="205.74" x2="154.94" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="PGND1_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PGND1_2"/>
 <wire x1="160.02" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="154.94" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="203.2" x2="154.94" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="190.5" x2="154.94" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="PGND2_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PGND2_1"/>
 <wire x1="160.02" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="154.94" y="190.5" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="190.5" x2="134.62" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
@@ -2933,10 +2933,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="191.77" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="GND@1"/>
+<pinref part="CNV-IC" gate="G$1" pin="GND@1"/>
 <pinref part="SUPPLY7" gate="1" pin="GND"/>
 <wire x1="76.2" y1="-35.56" x2="83.82" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="U5" gate="G$1" pin="GND"/>
+<pinref part="CNV-IC" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="-35.56" x2="86.36" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="76.2" y1="-40.64" x2="83.82" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="83.82" y1="-40.64" x2="83.82" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -2953,7 +2953,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="81.28" y="-68.58" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="1" pin="GND"/>
 <wire x1="39.37" y1="-96.52" x2="66.04" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="USB1" gate="G$1" pin="GND"/>
@@ -2962,7 +2962,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="66.04" y="-96.52" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="-"/>
+<pinref part="C10" gate="G$1" pin="-"/>
 <pinref part="SUPPLY5" gate="1" pin="GND"/>
 <wire x1="26.67" y1="-22.86" x2="27.94" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -2982,7 +2982,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="157.48" y1="130.81" x2="157.48" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 <segment>
-<pinref part="U4" gate="A" pin="GND"/>
+<pinref part="LDO-IC" gate="A" pin="GND"/>
 <wire x1="154.94" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="165.1" y1="142.24" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
@@ -2990,29 +2990,29 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="AO1" class="2">
 <segment>
-<pinref part="IC2" gate="G$1" pin="AO1_1"/>
-<pinref part="IC2" gate="G$1" pin="AO1_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AO1_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AO1_2"/>
 <wire x1="154.94" y1="210.82" x2="160.02" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="160.02" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="208.28" x2="154.94" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="154.94" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
 <junction x="154.94" y="210.82"/>
 <wire x1="119.38" y1="210.82" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="MOTOR_PIN" gate="G$1" pin="P$1"/>
+<pinref part="MOTOR-PIN" gate="G$1" pin="P$1"/>
 <wire x1="119.38" y1="218.44" x2="120.65" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AO2" class="2">
 <segment>
 <wire x1="149.86" y1="208.28" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="AO2_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AO2_2"/>
 <wire x1="149.86" y1="200.66" x2="149.86" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="149.86" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="AO2_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AO2_1"/>
 <wire x1="160.02" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="149.86" y="200.66" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="149.86" y1="208.28" x2="121.92" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="MOTOR_PIN" gate="G$1" pin="P$2"/>
+<pinref part="MOTOR-PIN" gate="G$1" pin="P$2"/>
 <wire x1="121.92" y1="208.28" x2="121.92" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="218.44" x2="123.19" y2="218.44" width="0.1524" layer="91"/>
 </segment>
@@ -3020,36 +3020,36 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="BO1" class="2">
 <segment>
 <wire x1="144.78" y1="198.12" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="BO1_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BO1_2"/>
 <wire x1="144.78" y1="185.42" x2="144.78" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="144.78" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="BO1_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BO1_1"/>
 <wire x1="160.02" y1="185.42" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="144.78" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="144.78" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="198.12" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="MOTOR_PIN" gate="G$1" pin="P$3"/>
+<pinref part="MOTOR-PIN" gate="G$1" pin="P$3"/>
 <wire x1="124.46" y1="218.44" x2="125.73" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BO2" class="2">
 <segment>
 <wire x1="147.32" y1="200.66" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="BO2_2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BO2_2"/>
 <wire x1="147.32" y1="195.58" x2="147.32" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="147.32" y1="193.04" x2="160.02" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="BO2_1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BO2_1"/>
 <wire x1="160.02" y1="195.58" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="147.32" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="147.32" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="MOTOR_PIN" gate="G$1" pin="P$4"/>
+<pinref part="MOTOR-PIN" gate="G$1" pin="P$4"/>
 <wire x1="127" y1="200.66" x2="127" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="127" y1="218.44" x2="128.27" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="STBY" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="STBY"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="STBY"/>
 <wire x1="193.04" y1="198.12" x2="213.36" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="198.12" x2="215.9" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
@@ -3058,14 +3058,14 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <label x="215.9" y="198.12" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO4"/>
+<pinref part="ESP32" gate="G$1" pin="IO4"/>
 <wire x1="220.98" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
 <label x="228.6" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="PROG"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="PROG"/>
 <pinref part="RPROG" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="114.3" x2="25.4" y2="107.95" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
@@ -3074,7 +3074,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="1.27" x2="15.24" y2="6.35" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="D2" gate="G$1" pin="+"/>
+<pinref part="USB-TO-SERIAL-LED" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -3084,12 +3084,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="213.36" y1="209.55" x2="213.36" y2="223.52" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="EN" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="21.59" x2="139.7" y2="17.78" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<pinref part="IC1" gate="G$1" pin="EN"/>
+<pinref part="ESP32" gate="G$1" pin="EN"/>
 <wire x1="139.7" y1="17.78" x2="139.7" y2="13.97" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="182.88" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="162.56" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
@@ -3105,10 +3105,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <junction x="162.56" y="43.18" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="BOOT" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO0"/>
-<pinref part="BOOT_SW" gate="G$1" pin="B0"/>
+<pinref part="ESP32" gate="G$1" pin="IO0"/>
+<pinref part="BOOT-SW" gate="G$1" pin="B0"/>
 <wire x1="220.98" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="238.76" y1="48.26" x2="238.76" y2="44.45" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C12" gate="G$1" pin="2"/>
@@ -3120,13 +3120,13 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="N$11" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="U3" gate="G$1" pin="!CHRG"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="!CHRG"/>
 <wire x1="25.4" y1="143.51" x2="25.4" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="-"/>
+<pinref part="BAT-RED" gate="G$1" pin="-"/>
 <wire x1="19.05" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="152.4" x2="25.4" y2="151.13" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
@@ -3134,7 +3134,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="!STDBY"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="!STDBY"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="139.7" x2="30.48" y2="143.51" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
@@ -3143,62 +3143,62 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="151.13" x2="30.48" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="D4" gate="G$1" pin="-"/>
+<pinref part="BAT-BLUE" gate="G$1" pin="-"/>
 <wire x1="30.48" y1="162.56" x2="19.05" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="VIN+" class="1">
 <segment>
-<pinref part="D1" gate="G$1" pin="+"/>
+<pinref part="BAT-RED" gate="G$1" pin="+"/>
 <wire x1="11.43" y1="152.4" x2="7.62" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="7.62" y1="152.4" x2="7.62" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="D4" gate="G$1" pin="+"/>
+<pinref part="BAT-BLUE" gate="G$1" pin="+"/>
 <wire x1="7.62" y1="139.7" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="7.62" y1="109.22" x2="7.62" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="11.43" y1="162.56" x2="7.62" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="7.62" y1="162.56" x2="7.62" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="7.62" y="152.4" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="U3" gate="G$1" pin="CE"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="CE"/>
 <wire x1="20.32" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="7.62" y="139.7" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="U3" gate="G$1" pin="VCC"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="114.3" x2="35.56" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="35.56" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <junction x="7.62" y="109.22" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="24.13" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="80.01" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 <junction x="7.62" y="86.36"/>
 </segment>
 </net>
 <net name="B+" class="1">
 <segment>
-<pinref part="U4" gate="A" pin="VIN"/>
+<pinref part="LDO-IC" gate="A" pin="VIN"/>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="138.43" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <junction x="119.38" y="144.78" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="C9" gate="G$1" pin="+"/>
 <wire x1="119.38" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="BAT"/>
+<pinref part="CHARGER-IC" gate="G$1" pin="BAT"/>
 <wire x1="35.56" y1="139.7" x2="35.56" y2="142.24" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <wire x1="35.56" y1="142.24" x2="39.37" y2="142.24" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="142.24" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
 <junction x="35.56" y="142.24"/>
-<pinref part="IC2" gate="G$1" pin="VM2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="VM2"/>
 <wire x1="193.04" y1="182.88" x2="198.12" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="198.12" y1="182.88" x2="198.12" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="VM3"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="VM3"/>
 <wire x1="193.04" y1="185.42" x2="198.12" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="198.12" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="198.12" y1="185.42" x2="198.12" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="IC2" gate="G$1" pin="VM1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="VM1"/>
 <wire x1="193.04" y1="210.82" x2="198.12" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="198.12" y="210.82" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="198.12" y1="210.82" x2="198.12" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="198.12" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="152.4" y1="220.98" x2="152.4" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="146.05" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <wire x1="152.4" y1="203.2" x2="152.4" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <junction x="152.4" y="205.74" grouprefs="MOTOR-DRIVER-MODULE"/>
@@ -3216,12 +3216,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="TXD0"/>
+<pinref part="ESP32" gate="G$1" pin="TXD0"/>
 <wire x1="220.98" y1="22.86" x2="223.52" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <label x="228.346" y="22.86" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="RXD"/>
+<pinref part="CNV-IC" gate="G$1" pin="RXD"/>
 <wire x1="49.53" y1="-20.32" x2="49.53" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="49.53" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <label x="48.26" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3229,12 +3229,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="RXD0"/>
+<pinref part="ESP32" gate="G$1" pin="RXD0"/>
 <wire x1="220.98" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <label x="223.52" y="25.4" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="TXD"/>
+<pinref part="CNV-IC" gate="G$1" pin="TXD"/>
 <wire x1="46.99" y1="-20.32" x2="46.99" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="46.99" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <label x="38.1" y="-12.446" size="1.778" layer="95" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3242,82 +3242,82 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="PWMA" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PWMA"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PWMA"/>
 <wire x1="193.04" y1="208.28" x2="195.58" y2="208.28" width="0.1524" layer="91"/>
 <label x="195.58" y="208.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO13"/>
+<pinref part="ESP32" gate="G$1" pin="IO13"/>
 <wire x1="182.88" y1="10.16" x2="180.34" y2="10.16" width="0.1524" layer="91"/>
 <label x="175.26" y="10.16" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="AIN2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AIN2"/>
 <wire x1="193.04" y1="205.74" x2="195.58" y2="205.74" width="0.1524" layer="91"/>
 <label x="195.58" y="205.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO15"/>
+<pinref part="ESP32" gate="G$1" pin="IO15"/>
 <wire x1="182.88" y1="-7.62" x2="180.34" y2="-7.62" width="0.1524" layer="91"/>
 <label x="175.26" y="-7.62" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="AIN1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="AIN1"/>
 <wire x1="193.04" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
 <label x="195.58" y="203.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO17"/>
+<pinref part="ESP32" gate="G$1" pin="IO17"/>
 <wire x1="220.98" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
 <label x="228.6" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BIN1" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="BIN1"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BIN1"/>
 <wire x1="193.04" y1="193.04" x2="195.58" y2="193.04" width="0.1524" layer="91"/>
 <label x="195.58" y="193.04" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO27"/>
+<pinref part="ESP32" gate="G$1" pin="IO27"/>
 <wire x1="182.88" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
 <label x="175.26" y="20.32" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BIN2" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="BIN2"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="BIN2"/>
 <wire x1="193.04" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 <label x="195.58" y="190.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO25"/>
+<pinref part="ESP32" gate="G$1" pin="IO25"/>
 <wire x1="182.88" y1="25.4" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
 <label x="175.26" y="25.4" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWMB" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PWMB"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="PWMB"/>
 <wire x1="193.04" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
 <label x="195.58" y="187.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IO32"/>
+<pinref part="ESP32" gate="G$1" pin="IO32"/>
 <wire x1="182.88" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 <label x="175.26" y="30.48" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
-<pinref part="POWER_SW" gate="1" pin="S"/>
+<pinref part="PWR-SW" gate="1" pin="S"/>
 <wire x1="170.18" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<pinref part="D3" gate="G$1" pin="+"/>
+<pinref part="PWR-LED" gate="G$1" pin="+"/>
 <wire x1="172.72" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <wire x1="173.99" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <wire x1="172.72" y1="134.62" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
@@ -3329,7 +3329,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
+<pinref part="DRIVER-IC" gate="G$1" pin="VCC"/>
 <wire x1="193.04" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="PULLUP" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="200.66" x2="205.74" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
@@ -3340,12 +3340,12 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="48.26" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="3V3"/>
+<pinref part="ESP32" gate="G$1" pin="3V3"/>
 <wire x1="119.38" y1="45.72" x2="119.38" y2="39.37" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="127" y1="39.37" x2="127" y2="45.72" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <wire x1="127" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <junction x="127" y="45.72"/>
@@ -3354,24 +3354,24 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="-"/>
+<pinref part="PWR-LED" gate="G$1" pin="-"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="181.61" y1="134.62" x2="184.15" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="VCCIO"/>
+<pinref part="CNV-IC" gate="G$1" pin="VCCIO"/>
 <wire x1="40.64" y1="-35.56" x2="38.1" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="-35.56" x2="38.1" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="38.1" y1="-63.5" x2="38.1" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="38.1" y1="-83.82" x2="66.04" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="U5" gate="G$1" pin="RESET"/>
+<pinref part="CNV-IC" gate="G$1" pin="RESET"/>
 <wire x1="66.04" y1="-83.82" x2="69.85" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="66.04" y1="-55.88" x2="66.04" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="66.04" y="-83.82" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="U5" gate="G$1" pin="3V3OUT"/>
+<pinref part="CNV-IC" gate="G$1" pin="3V3OUT"/>
 <wire x1="46.99" y1="-55.88" x2="46.99" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="46.99" y1="-63.5" x2="38.1" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="38.1" y="-63.5" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3379,16 +3379,16 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="RTS"/>
+<pinref part="CNV-IC" gate="G$1" pin="RTS"/>
 <wire x1="52.07" y1="-20.32" x2="52.07" y2="-17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="U5" gate="G$1" pin="CTS"/>
+<pinref part="CNV-IC" gate="G$1" pin="CTS"/>
 <wire x1="52.07" y1="-17.78" x2="54.61" y2="-17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="54.61" y1="-17.78" x2="54.61" y2="-20.32" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="USBDM"/>
+<pinref part="CNV-IC" gate="G$1" pin="USBDM"/>
 <wire x1="54.61" y1="-55.88" x2="53.34" y2="-55.88" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="-55.88" x2="53.34" y2="-57.15" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3396,7 +3396,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="USBDP"/>
+<pinref part="CNV-IC" gate="G$1" pin="USBDP"/>
 <wire x1="57.15" y1="-55.88" x2="60.96" y2="-55.88" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="-55.88" x2="60.96" y2="-57.15" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3429,10 +3429,10 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="VBUS" class="1">
 <segment>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
-<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="HUSE" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="-104.14" x2="15.24" y2="-104.14" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="15.24" y1="-104.14" x2="15.24" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="-96.52" x2="15.24" y2="-93.98" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="31.75" y1="-96.52" x2="15.24" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="15.24" y="-96.52" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3440,8 +3440,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="1"/>
-<pinref part="E1" gate="G$1" pin="2"/>
+<pinref part="HUSE" gate="G$1" pin="1"/>
+<pinref part="FERRITE-BEAD" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="-76.2" x2="15.24" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
@@ -3461,9 +3461,9 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="E1" gate="G$1" pin="1"/>
+<pinref part="FERRITE-BEAD" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="-55.88" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="U5" gate="G$1" pin="VCC"/>
+<pinref part="CNV-IC" gate="G$1" pin="VCC"/>
 <wire x1="40.64" y1="-40.64" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="15.24" y="-40.64" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="15.24" y1="-33.02" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
@@ -3471,7 +3471,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="19.05" y1="-33.02" x2="15.24" y2="-33.02" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="15.24" y="-33.02" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <wire x1="15.24" y1="-22.86" x2="15.24" y2="-33.02" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<pinref part="C17" gate="G$1" pin="+"/>
+<pinref part="C10" gate="G$1" pin="+"/>
 <wire x1="19.05" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <junction x="15.24" y="-22.86" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -3486,14 +3486,14 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="N$20" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="69.85" x2="7.62" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER_SW" class="0">
 <segment>
-<pinref part="POWER_SW" gate="1" pin="P"/>
-<pinref part="U4" gate="A" pin="VOUT"/>
+<pinref part="PWR-SW" gate="1" pin="P"/>
+<pinref part="LDO-IC" gate="A" pin="VOUT"/>
 <wire x1="154.94" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="157.48" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>

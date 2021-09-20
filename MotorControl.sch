@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2565,251 +2565,251 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="SUPPLY1" gate="1" x="81.28" y="-96.52" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="84.455" y="-98.425" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY1" gate="1" x="81.28" y="-71.12" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="84.455" y="-73.025" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="1" x="15.24" y="20.32" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="17.145" y="23.495" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY2" gate="1" x="15.24" y="45.72" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="17.145" y="48.895" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY4" gate="1" x="88.9" y="-83.82" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="92.075" y="-85.725" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY4" gate="1" x="88.9" y="-58.42" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="92.075" y="-60.325" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY7" gate="1" x="88.9" y="-35.56" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="92.075" y="-37.465" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY7" gate="1" x="88.9" y="-10.16" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="92.075" y="-12.065" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CHARGER-IC" gate="G$1" x="27.94" y="124.46" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="40.64" y="116.84" size="1.778" layer="95" rot="R90"/>
+<instance part="CHARGER-IC" gate="G$1" x="27.94" y="147.32" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="40.64" y="139.7" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="DRIVER-IC" gate="G$1" x="160.02" y="210.82" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
-<attribute name="NAME" x="166.37" y="218.44" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="166.37" y="215.9" size="1.778" layer="96" align="center-left"/>
+<instance part="DRIVER-IC" gate="G$1" x="121.92" y="210.82" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="NAME" x="128.27" y="218.44" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="128.27" y="215.9" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="PULLUP" gate="G$1" x="213.36" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
-<attribute name="NAME" x="207.645" y="219.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="218.44" y="219.71" size="1.778" layer="96" rot="R90"/>
+<instance part="PULLUP" gate="G$1" x="175.26" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="NAME" x="169.545" y="219.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="180.34" y="219.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LDO-IC" gate="A" x="116.84" y="144.78" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="132.4356" y="153.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="131.8006" y="151.3586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="LDO-IC" gate="A" x="81.28" y="144.78" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="96.8756" y="153.8986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="96.2406" y="151.3586" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="C8" gate="G$1" x="157.48" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="161.29" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="161.29" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="C8" gate="G$1" x="121.92" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="125.73" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="125.73" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="C9" gate="G$1" x="119.38" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="123.19" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="123.19" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="C9" gate="G$1" x="83.82" y="134.62" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="87.63" y="140.97" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="87.63" y="133.35" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="25.4" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="26.67" y="151.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="22.86" y="151.13" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="R3" gate="G$1" x="25.4" y="170.18" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="26.67" y="173.99" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="22.86" y="173.99" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="31.75" y="151.13" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="27.94" y="151.13" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="R2" gate="G$1" x="30.48" y="170.18" smashed="yes" rot="R270" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="31.75" y="173.99" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="173.99" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="RPROG" gate="G$1" x="25.4" y="104.14" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="24.13" y="100.33" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="27.94" y="100.33" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="RPROG" gate="G$1" x="25.4" y="127" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="24.13" y="123.19" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="27.94" y="123.19" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="BAT-RED" gate="G$1" x="15.24" y="152.4" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="7.62" y="153.67" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="10.16" y="147.32" size="1.27" layer="96" ratio="10"/>
+<instance part="BAT-RED" gate="G$1" x="15.24" y="175.26" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="7.62" y="176.53" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="10.16" y="170.18" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="USB1" gate="G$1" x="66.04" y="-114.3" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="52.578" y="-124.46" size="1.778" layer="95" rot="R90"/>
+<instance part="USB1" gate="G$1" x="66.04" y="-88.9" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="52.578" y="-99.06" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="73.66" y="-83.82" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="77.47" y="-85.09" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="77.47" y="-81.28" size="1.27" layer="96" ratio="10" rot="R180"/>
+<instance part="C4" gate="G$1" x="73.66" y="-58.42" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="77.47" y="-59.69" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="77.47" y="-55.88" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="15.24" y="-2.54" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="16.51" y="1.27" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="12.7" y="1.27" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="R7" gate="G$1" x="15.24" y="22.86" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="16.51" y="26.67" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="12.7" y="26.67" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="HUSE" gate="G$1" x="15.24" y="-76.2" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="21.59" y="-80.01" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="19.05" y="-80.01" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="HUSE" gate="G$1" x="15.24" y="-50.8" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="21.59" y="-54.61" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="19.05" y="-54.61" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="213.36" y="205.74" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
-<attribute name="NAME" x="212.09" y="201.93" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="215.9" y="201.93" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R1" gate="G$1" x="175.26" y="205.74" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="NAME" x="173.99" y="201.93" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="177.8" y="201.93" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="142.24" y="203.2" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
-<attribute name="NAME" x="138.43" y="204.47" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="138.43" y="200.66" size="1.27" layer="96" ratio="10"/>
+<instance part="C2" gate="G$1" x="104.14" y="203.2" smashed="yes" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="NAME" x="100.33" y="204.47" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="200.66" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="ESP32" gate="G$1" x="182.88" y="48.26" smashed="yes" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="217.17" y="55.88" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="217.17" y="53.34" size="1.778" layer="96" align="center-left"/>
+<instance part="ESP32" gate="G$1" x="172.72" y="93.98" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="207.01" y="101.6" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="207.01" y="99.06" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY14" gate="1" x="119.38" y="20.32" smashed="yes" grouprefs="MICRO-COMPUTER">
-<attribute name="VALUE" x="117.475" y="17.145" size="1.778" layer="96"/>
+<instance part="SUPPLY14" gate="1" x="109.22" y="66.04" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="107.315" y="62.865" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="119.38" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="118.11" y="31.75" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="121.92" y="31.75" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C3" gate="G$1" x="109.22" y="81.28" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="107.95" y="77.47" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="111.76" y="77.47" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C6" gate="G$1" x="127" y="35.56" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="125.73" y="31.75" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="129.54" y="31.75" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C6" gate="G$1" x="116.84" y="81.28" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="115.57" y="77.47" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="119.38" y="77.47" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="SUPPLY18" gate="1" x="139.7" y="-5.08" smashed="yes" grouprefs="MICRO-COMPUTER">
-<attribute name="VALUE" x="137.795" y="-8.255" size="1.778" layer="96"/>
+<instance part="SUPPLY18" gate="1" x="129.54" y="40.64" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="127.635" y="37.465" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="139.7" y="10.16" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="138.43" y="6.35" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="142.24" y="6.35" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C7" gate="G$1" x="129.54" y="55.88" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="128.27" y="52.07" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="132.08" y="52.07" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="139.7" y="25.4" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="138.43" y="21.59" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="142.24" y="21.59" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R4" gate="G$1" x="129.54" y="71.12" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="128.27" y="67.31" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="132.08" y="67.31" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="EN_SW" gate="G$1" x="152.4" y="12.7" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="157.48" y="17.78" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="146.05" y="17.78" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="EN_SW" gate="G$1" x="142.24" y="58.42" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="147.32" y="63.5" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="135.89" y="63.5" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="SUPPLY19" gate="1" x="228.6" y="12.7" smashed="yes" grouprefs="MICRO-COMPUTER">
-<attribute name="VALUE" x="226.695" y="9.525" size="1.778" layer="96"/>
+<instance part="SUPPLY19" gate="1" x="218.44" y="58.42" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="216.535" y="55.245" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY20" gate="1" x="243.84" y="20.32" smashed="yes" grouprefs="MICRO-COMPUTER">
-<attribute name="VALUE" x="241.935" y="17.145" size="1.778" layer="96"/>
+<instance part="SUPPLY20" gate="1" x="233.68" y="66.04" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="231.775" y="62.865" size="1.778" layer="96"/>
 </instance>
-<instance part="BOOT-SW" gate="G$1" x="241.3" y="35.56" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="246.38" y="40.64" size="1.27" layer="95" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="234.95" y="40.64" size="1.27" layer="96" ratio="10" rot="R270"/>
+<instance part="BOOT-SW" gate="G$1" x="231.14" y="81.28" smashed="yes" rot="R270" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="236.22" y="86.36" size="1.27" layer="95" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="224.79" y="86.36" size="1.27" layer="96" ratio="10" rot="R270"/>
 </instance>
-<instance part="C12" gate="G$1" x="254" y="38.1" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="252.73" y="34.29" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="256.54" y="34.29" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C12" gate="G$1" x="243.84" y="83.82" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="242.57" y="80.01" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="246.38" y="80.01" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C11" gate="G$1" x="162.56" y="12.7" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
-<attribute name="NAME" x="161.29" y="8.89" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="165.1" y="8.89" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="C11" gate="G$1" x="152.4" y="58.42" smashed="yes" rot="R90" grouprefs="MICRO-COMPUTER">
+<attribute name="NAME" x="151.13" y="54.61" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="154.94" y="54.61" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="BAT" gate="G$1" x="12.7" y="220.98" smashed="yes" rot="R90" grouprefs="BATTERY">
 <attribute name="VALUE" x="8.89" y="223.52" size="1.27" layer="96" ratio="10" rot="R90"/>
 <attribute name="NAME" x="8.89" y="217.17" size="1.27" layer="95" ratio="10" rot="R90"/>
 </instance>
-<instance part="C13" gate="G$1" x="43.18" y="142.24" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="46.99" y="140.97" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="46.99" y="144.78" size="1.27" layer="96" ratio="10" rot="R180"/>
+<instance part="C13" gate="G$1" x="43.18" y="165.1" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="46.99" y="163.83" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="46.99" y="167.64" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="BAT-BLUE" gate="G$1" x="15.24" y="162.56" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="7.62" y="163.83" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="10.16" y="157.48" size="1.27" layer="96" ratio="10"/>
+<instance part="BAT-BLUE" gate="G$1" x="15.24" y="185.42" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="7.62" y="186.69" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="10.16" y="180.34" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="31.75" y="85.09" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="31.75" y="88.9" size="1.27" layer="96" ratio="10" rot="R180"/>
+<instance part="C1" gate="G$1" x="27.94" y="109.22" smashed="yes" rot="R180" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="31.75" y="107.95" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="31.75" y="111.76" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="MOTOR-PIN" gate="G$1" x="124.46" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
-<attribute name="NAME" x="130.81" y="231.14" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="118.11" y="222.25" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="MOTOR-PIN" gate="G$1" x="86.36" y="226.06" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="NAME" x="92.71" y="231.14" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="222.25" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="USB-TO-SERIAL-LED" gate="G$1" x="15.24" y="10.16" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="13.97" y="2.54" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="20.32" y="5.08" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="USB-TO-SERIAL-LED" gate="G$1" x="15.24" y="35.56" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="13.97" y="27.94" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="20.32" y="30.48" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="SUPPLY8" gate="1" x="50.8" y="78.74" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="VALUE" x="48.895" y="75.565" size="1.778" layer="96"/>
+<instance part="SUPPLY8" gate="1" x="50.8" y="101.6" smashed="yes" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="VALUE" x="48.895" y="98.425" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR-SW" gate="1" x="165.1" y="147.32" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="168.275" y="151.13" size="1.778" layer="95"/>
-<attribute name="VALUE" x="168.275" y="148.59" size="1.778" layer="96"/>
+<instance part="PWR-SW" gate="1" x="129.54" y="147.32" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="132.715" y="151.13" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.715" y="148.59" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="190.5" y="144.78" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="VALUE" x="185.42" y="147.32" size="1.778" layer="96"/>
+<instance part="+3V1" gate="G$1" x="154.94" y="144.78" smashed="yes" rot="R270" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="149.86" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="PWR-LED" gate="G$1" x="177.8" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="170.18" y="135.89" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="172.72" y="129.54" size="1.27" layer="96" ratio="10"/>
+<instance part="PWR-LED" gate="G$1" x="142.24" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="134.62" y="135.89" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="137.16" y="129.54" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R6" gate="G$1" x="187.96" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="NAME" x="184.15" y="135.89" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="184.15" y="132.08" size="1.27" layer="96" ratio="10"/>
+<instance part="R6" gate="G$1" x="152.4" y="134.62" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="NAME" x="148.59" y="135.89" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="148.59" y="132.08" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="GND1" gate="1" x="195.58" y="132.08" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="VALUE" x="193.04" y="129.54" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="160.02" y="132.08" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="157.48" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="119.38" y="50.8" smashed="yes">
-<attribute name="VALUE" x="116.84" y="45.72" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="109.22" y="96.52" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="106.68" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="139.7" y="38.1" smashed="yes">
-<attribute name="VALUE" x="137.16" y="33.02" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V3" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="MICRO-COMPUTER">
+<attribute name="VALUE" x="127" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="208.28" y="200.66" smashed="yes" rot="R270">
-<attribute name="VALUE" x="203.2" y="203.2" size="1.778" layer="96"/>
+<instance part="+3V4" gate="G$1" x="172.72" y="200.66" smashed="yes" rot="R270" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="VALUE" x="167.64" y="203.2" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="208.28" y="195.58" smashed="yes" rot="R90">
-<attribute name="VALUE" x="210.82" y="193.04" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="172.72" y="195.58" smashed="yes" rot="R90" grouprefs="MOTOR-DRIVER-MODULE">
+<attribute name="VALUE" x="175.26" y="193.04" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="FERRITE-BEAD" gate="G$1" x="15.24" y="-63.5" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="20.32148125" y="-55.875559375" size="2.54148125" layer="95" rot="R270"/>
-<attribute name="VALUE" x="7.613359375" y="-55.87003125" size="2.54331875" layer="96" rot="R270"/>
+<instance part="FERRITE-BEAD" gate="G$1" x="15.24" y="-38.1" smashed="yes" rot="R270" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="20.32148125" y="-30.475559375" size="2.54148125" layer="95" rot="R270"/>
+<attribute name="VALUE" x="7.613359375" y="-30.47003125" size="2.54331875" layer="96" rot="R270"/>
 </instance>
-<instance part="CNV-IC" gate="G$1" x="58.42" y="-38.1" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="43.1786" y="-52.0713" size="1.27011875" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="76.1797" y="-30.47323125" size="1.271690625" layer="96" ratio="10" rot="R90"/>
+<instance part="CNV-IC" gate="G$1" x="58.42" y="-12.7" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="43.1786" y="-26.6713" size="1.27011875" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="76.1797" y="-5.07323125" size="1.271690625" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="53.34" y="-60.96" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="52.07" y="-64.77" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="55.88" y="-64.77" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R10" gate="G$1" x="53.34" y="-35.56" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="52.07" y="-39.37" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="55.88" y="-39.37" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R11" gate="G$1" x="60.96" y="-60.96" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="59.69" y="-64.77" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="63.5" y="-64.77" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R11" gate="G$1" x="60.96" y="-35.56" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="59.69" y="-39.37" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="63.5" y="-39.37" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C14" gate="G$1" x="73.66" y="-76.2" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="69.85" y="-74.93" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="69.85" y="-78.74" size="1.27" layer="96" ratio="10"/>
+<instance part="C14" gate="G$1" x="73.66" y="-50.8" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="69.85" y="-49.53" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="69.85" y="-53.34" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C15" gate="G$1" x="73.66" y="-68.58" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="69.85" y="-67.31" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="69.85" y="-71.12" size="1.27" layer="96" ratio="10"/>
+<instance part="C15" gate="G$1" x="73.66" y="-43.18" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="69.85" y="-41.91" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="69.85" y="-45.72" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="SUPPLY3" gate="1" x="88.9" y="-68.58" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="92.075" y="-70.485" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY3" gate="1" x="88.9" y="-43.18" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="92.075" y="-45.085" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C5" gate="G$1" x="35.56" y="-96.52" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="31.75" y="-95.25" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="31.75" y="-99.06" size="1.27" layer="96" ratio="10"/>
+<instance part="C5" gate="G$1" x="35.56" y="-71.12" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="31.75" y="-69.85" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="31.75" y="-73.66" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C16" gate="G$1" x="22.86" y="-33.02" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="26.67" y="-34.29" size="1.27" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="26.67" y="-30.48" size="1.27" layer="96" ratio="10" rot="R180"/>
+<instance part="C16" gate="G$1" x="22.86" y="-7.62" smashed="yes" rot="R180" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="26.67" y="-8.89" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="26.67" y="-5.08" size="1.27" layer="96" ratio="10" rot="R180"/>
 </instance>
-<instance part="C10" gate="G$1" x="22.86" y="-22.86" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="NAME" x="16.51" y="-19.05" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="24.13" y="-19.05" size="1.27" layer="96" ratio="10"/>
+<instance part="C10" gate="G$1" x="22.86" y="2.54" smashed="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="NAME" x="16.51" y="6.35" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="24.13" y="6.35" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="SUPPLY5" gate="1" x="35.56" y="-22.86" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
-<attribute name="VALUE" x="38.735" y="-24.765" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY5" gate="1" x="35.56" y="2.54" smashed="yes" rot="R90" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE">
+<attribute name="VALUE" x="38.735" y="0.635" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="7.62" y="45.72" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="6.35" y="41.91" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.16" y="41.91" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R8" gate="G$1" x="7.62" y="68.58" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="6.35" y="64.77" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.16" y="64.77" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="7.62" y="55.88" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="6.35" y="52.07" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.16" y="52.07" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R9" gate="G$1" x="7.62" y="78.74" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="6.35" y="74.93" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.16" y="74.93" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="7.62" y="66.04" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="6.35" y="62.23" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.16" y="62.23" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R12" gate="G$1" x="7.62" y="88.9" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="6.35" y="85.09" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.16" y="85.09" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="7.62" y="76.2" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
-<attribute name="NAME" x="6.35" y="72.39" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="10.16" y="72.39" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R5" gate="G$1" x="7.62" y="99.06" smashed="yes" rot="R90" grouprefs="LI-ION-BATTERY-CHARGER-MODULE">
+<attribute name="NAME" x="6.35" y="95.25" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="10.16" y="95.25" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="GND3" gate="1" x="119.38" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="VALUE" x="116.84" y="119.38" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="83.82" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="81.28" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="157.48" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="VALUE" x="154.94" y="119.38" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="121.92" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="119.38" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="165.1" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
-<attribute name="VALUE" x="162.56" y="119.38" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="129.54" y="121.92" smashed="yes" grouprefs="LOW-DROPOUT-REGULATER-MODULE">
+<attribute name="VALUE" x="127" y="119.38" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2819,105 +2819,105 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY4" gate="1" pin="GND"/>
-<wire x1="77.47" y1="-83.82" x2="86.36" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="77.47" y1="-58.42" x2="86.36" y2="-58.42" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="1" pin="GND"/>
-<wire x1="15.24" y1="13.97" x2="15.24" y2="17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="39.37" x2="15.24" y2="43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="USB-TO-SERIAL-LED" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="1" pin="GND"/>
-<wire x1="119.38" y1="31.75" x2="119.38" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="119.38" y1="27.94" x2="119.38" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="109.22" y1="77.47" x2="109.22" y2="73.66" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="109.22" y1="73.66" x2="109.22" y2="68.58" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="127" y1="31.75" x2="127" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="127" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="119.38" y="27.94" grouprefs="MICRO-COMPUTER"/>
+<wire x1="116.84" y1="77.47" x2="116.84" y2="73.66" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="116.84" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="109.22" y="73.66" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="1" pin="GND"/>
-<wire x1="139.7" y1="6.35" x2="139.7" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="139.7" y="-2.54" grouprefs="MICRO-COMPUTER"/>
-<wire x1="154.94" y1="-2.54" x2="139.7" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="129.54" y1="52.07" x2="129.54" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="129.54" y="43.18" grouprefs="MICRO-COMPUTER"/>
+<wire x1="144.78" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="EN_SW" gate="G$1" pin="A1"/>
-<wire x1="154.94" y1="3.81" x2="154.94" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="144.78" y1="49.53" x2="144.78" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="8.89" x2="162.56" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="162.56" y1="-2.54" x2="154.94" y2="-2.54" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="154.94" y="-2.54" grouprefs="MICRO-COMPUTER"/>
+<wire x1="152.4" y1="54.61" x2="152.4" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="152.4" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="144.78" y="43.18" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="GND_3"/>
 <pinref part="SUPPLY19" gate="1" pin="GND"/>
-<wire x1="220.98" y1="15.24" x2="226.06" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="226.06" y1="15.24" x2="228.6" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="210.82" y1="60.96" x2="215.9" y2="60.96" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="215.9" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="ESP32" gate="G$1" pin="GND_4"/>
-<wire x1="220.98" y1="12.7" x2="226.06" y2="12.7" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="226.06" y1="12.7" x2="226.06" y2="15.24" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="226.06" y="15.24" grouprefs="MICRO-COMPUTER"/>
+<wire x1="210.82" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="215.9" y1="58.42" x2="215.9" y2="60.96" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="215.9" y="60.96" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="1" pin="GND"/>
 <pinref part="BOOT-SW" gate="G$1" pin="A1"/>
-<wire x1="243.84" y1="26.67" x2="243.84" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="233.68" y1="72.39" x2="233.68" y2="68.58" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="254" y1="34.29" x2="254" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="254" y1="22.86" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
-<junction x="243.84" y="22.86"/>
+<wire x1="243.84" y1="80.01" x2="243.84" y2="68.58" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="243.84" y1="68.58" x2="233.68" y2="68.58" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="233.68" y="68.58" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="CHARGER-IC" gate="G$1" pin="GND"/>
-<wire x1="30.48" y1="114.3" x2="30.48" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="30.48" y1="137.16" x2="30.48" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="CHARGER-IC" gate="G$1" pin="TEMP"/>
-<wire x1="20.32" y1="114.3" x2="20.32" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="20.32" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="20.32" y1="137.16" x2="20.32" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="20.32" y1="119.38" x2="25.4" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="RPROG" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="25.4" y1="100.33" x2="25.4" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="25.4" y="96.52" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="25.4" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="25.4" y1="123.19" x2="25.4" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="25.4" y="119.38" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="46.99" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="50.8" y1="142.24" x2="50.8" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="50.8" y1="96.52" x2="50.8" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="50.8" y1="86.36" x2="50.8" y2="81.28" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="30.48" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="30.48" y="96.52" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="50.8" y="96.52" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="46.99" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="50.8" y1="165.1" x2="50.8" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="50.8" y1="119.38" x2="50.8" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="50.8" y1="109.22" x2="50.8" y2="104.14" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="30.48" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="30.48" y="119.38" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="50.8" y="119.38" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="31.75" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="50.8" y="86.36" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="31.75" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="50.8" y="109.22" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="GND"/>
-<wire x1="193.04" y1="195.58" x2="200.66" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="200.66" y1="195.58" x2="205.74" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="200.66" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="200.66" y1="177.8" x2="200.66" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="162.56" y1="195.58" x2="170.18" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="162.56" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="162.56" y1="177.8" x2="162.56" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="138.43" y1="203.2" x2="134.62" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="134.62" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="134.62" y1="203.2" x2="134.62" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="100.33" y1="203.2" x2="96.52" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="96.52" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="96.52" y1="203.2" x2="96.52" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="PGND2_2"/>
-<wire x1="154.94" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="187.96" x2="121.92" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="PGND1_1"/>
-<wire x1="160.02" y1="205.74" x2="154.94" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="205.74" x2="154.94" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="121.92" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="205.74" x2="116.84" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="PGND1_2"/>
-<wire x1="160.02" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="154.94" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="203.2" x2="154.94" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="190.5" x2="154.94" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="121.92" y1="203.2" x2="116.84" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="116.84" y="203.2" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="203.2" x2="116.84" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="190.5" x2="116.84" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="PGND2_1"/>
-<wire x1="160.02" y1="190.5" x2="154.94" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="154.94" y="190.5" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="190.5" x2="134.62" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="134.62" y="190.5" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="134.62" y1="190.5" x2="134.62" y2="177.8" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="134.62" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="134.62" y1="203.2" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="203.2" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<junction x="50.8" y="142.24"/>
+<wire x1="121.92" y1="190.5" x2="116.84" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="116.84" y="190.5" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="96.52" y="190.5" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="96.52" y1="190.5" x2="96.52" y2="177.8" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="96.52" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="96.52" y1="203.2" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="203.2" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<junction x="50.8" y="165.1"/>
 <label x="91.44" y="200.66" size="1.778" layer="95"/>
 <pinref part="SUPPLY8" gate="1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -2930,150 +2930,150 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="191.77" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="156.21" y1="134.62" x2="160.02" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="GND@1"/>
 <pinref part="SUPPLY7" gate="1" pin="GND"/>
-<wire x1="76.2" y1="-35.56" x2="83.82" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="76.2" y1="-10.16" x2="83.82" y2="-10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="CNV-IC" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="-35.56" x2="86.36" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="76.2" y1="-40.64" x2="83.82" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="83.82" y1="-40.64" x2="83.82" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="83.82" y="-35.56" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="83.82" y1="-10.16" x2="86.36" y2="-10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="76.2" y1="-15.24" x2="83.82" y2="-15.24" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="83.82" y1="-15.24" x2="83.82" y2="-10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="83.82" y="-10.16" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="1" pin="GND"/>
-<wire x1="77.47" y1="-68.58" x2="81.28" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="77.47" y1="-43.18" x2="81.28" y2="-43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="-68.58" x2="86.36" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="77.47" y1="-76.2" x2="81.28" y2="-76.2" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="81.28" y1="-76.2" x2="81.28" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="81.28" y="-68.58" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="81.28" y1="-43.18" x2="86.36" y2="-43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="77.47" y1="-50.8" x2="81.28" y2="-50.8" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="81.28" y1="-50.8" x2="81.28" y2="-43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="81.28" y="-43.18" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="1" pin="GND"/>
-<wire x1="39.37" y1="-96.52" x2="66.04" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="39.37" y1="-71.12" x2="66.04" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="USB1" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="-96.52" x2="78.74" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="66.04" y1="-104.14" x2="66.04" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="66.04" y="-96.52" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="66.04" y1="-71.12" x2="78.74" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="66.04" y1="-78.74" x2="66.04" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="66.04" y="-71.12" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="-"/>
 <pinref part="SUPPLY5" gate="1" pin="GND"/>
-<wire x1="26.67" y1="-22.86" x2="27.94" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="26.67" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-22.86" x2="33.02" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="26.67" y1="-33.02" x2="27.94" y2="-33.02" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="27.94" y1="-33.02" x2="27.94" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="27.94" y="-22.86" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="27.94" y1="2.54" x2="33.02" y2="2.54" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="26.67" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="27.94" y1="-7.62" x2="27.94" y2="2.54" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="27.94" y="2.54" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="-"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="119.38" y1="130.81" x2="119.38" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="83.82" y1="130.81" x2="83.82" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="157.48" y1="130.81" x2="157.48" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="121.92" y1="130.81" x2="121.92" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 <segment>
 <pinref part="LDO-IC" gate="A" pin="GND"/>
-<wire x1="154.94" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="165.1" y1="142.24" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="129.54" y1="142.24" x2="129.54" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 </net>
 <net name="AO1" class="2">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="AO1_1"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="AO1_2"/>
-<wire x1="154.94" y1="210.82" x2="160.02" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="160.02" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="208.28" x2="154.94" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="154.94" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
-<junction x="154.94" y="210.82"/>
-<wire x1="119.38" y1="210.82" x2="119.38" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="210.82" x2="121.92" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="121.92" y1="208.28" x2="116.84" y2="208.28" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="208.28" x2="116.84" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="116.84" y1="210.82" x2="83.82" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="116.84" y="210.82" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="83.82" y1="210.82" x2="83.82" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="MOTOR-PIN" gate="G$1" pin="P$1"/>
-<wire x1="119.38" y1="218.44" x2="120.65" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="218.44" x2="82.55" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
 <net name="AO2" class="2">
 <segment>
-<wire x1="149.86" y1="208.28" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="111.76" y1="208.28" x2="111.76" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="AO2_2"/>
-<wire x1="149.86" y1="200.66" x2="149.86" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="149.86" y1="198.12" x2="160.02" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="111.76" y1="200.66" x2="111.76" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="111.76" y1="198.12" x2="121.92" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="AO2_1"/>
-<wire x1="160.02" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="149.86" y="200.66" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="149.86" y1="208.28" x2="121.92" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="111.76" y="200.66" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="111.76" y1="208.28" x2="86.36" y2="208.28" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="MOTOR-PIN" gate="G$1" pin="P$2"/>
-<wire x1="121.92" y1="208.28" x2="121.92" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="218.44" x2="123.19" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="208.28" x2="86.36" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="86.36" y1="218.44" x2="85.09" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
 <net name="BO1" class="2">
 <segment>
-<wire x1="144.78" y1="198.12" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="106.68" y1="198.12" x2="106.68" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="BO1_2"/>
-<wire x1="144.78" y1="185.42" x2="144.78" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="144.78" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="106.68" y1="185.42" x2="106.68" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="106.68" y1="182.88" x2="121.92" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="BO1_1"/>
-<wire x1="160.02" y1="185.42" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="144.78" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="144.78" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="198.12" x2="124.46" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="185.42" x2="106.68" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="106.68" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="106.68" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="88.9" y1="198.12" x2="88.9" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="MOTOR-PIN" gate="G$1" pin="P$3"/>
-<wire x1="124.46" y1="218.44" x2="125.73" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="218.44" x2="87.63" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
 <net name="BO2" class="2">
 <segment>
-<wire x1="147.32" y1="200.66" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="109.22" y1="200.66" x2="109.22" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="BO2_2"/>
-<wire x1="147.32" y1="195.58" x2="147.32" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="147.32" y1="193.04" x2="160.02" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="109.22" y1="195.58" x2="109.22" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="109.22" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="BO2_1"/>
-<wire x1="160.02" y1="195.58" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="147.32" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="147.32" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="195.58" x2="109.22" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="109.22" y="195.58" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="109.22" y1="200.66" x2="91.44" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="MOTOR-PIN" gate="G$1" pin="P$4"/>
-<wire x1="127" y1="200.66" x2="127" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="127" y1="218.44" x2="128.27" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="200.66" x2="91.44" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="91.44" y1="218.44" x2="90.17" y2="218.44" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
 <net name="STBY" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="STBY"/>
-<wire x1="193.04" y1="198.12" x2="213.36" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="198.12" x2="175.26" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="198.12" x2="215.9" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="213.36" y1="201.93" x2="213.36" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="213.36" y="198.12" grouprefs="MOTOR-DRIVER-MODULE"/>
-<label x="215.9" y="198.12" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="175.26" y1="198.12" x2="177.8" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="175.26" y1="201.93" x2="175.26" y2="198.12" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="175.26" y="198.12" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="177.8" y="198.12" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO4"/>
-<wire x1="220.98" y1="45.72" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="228.6" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="210.82" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="218.44" y="91.44" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="CHARGER-IC" gate="G$1" pin="PROG"/>
 <pinref part="RPROG" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="114.3" x2="25.4" y2="107.95" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="25.4" y1="137.16" x2="25.4" y2="130.81" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="1.27" x2="15.24" y2="6.35" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="26.67" x2="15.24" y2="31.75" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="USB-TO-SERIAL-LED" gate="G$1" pin="+"/>
 </segment>
 </net>
@@ -3081,131 +3081,131 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="PULLUP" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="209.55" x2="213.36" y2="223.52" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="175.26" y1="209.55" x2="175.26" y2="223.52" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="21.59" x2="139.7" y2="17.78" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="129.54" y1="67.31" x2="129.54" y2="63.5" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="ESP32" gate="G$1" pin="EN"/>
-<wire x1="139.7" y1="17.78" x2="139.7" y2="13.97" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="182.88" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="162.56" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="149.86" y1="43.18" x2="144.78" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="144.78" y1="43.18" x2="144.78" y2="17.78" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="144.78" y1="17.78" x2="139.7" y2="17.78" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="139.7" y="17.78" grouprefs="MICRO-COMPUTER"/>
+<wire x1="129.54" y1="63.5" x2="129.54" y2="59.69" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="172.72" y1="88.9" x2="152.4" y2="88.9" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="152.4" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="139.7" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="134.62" y1="88.9" x2="134.62" y2="63.5" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="134.62" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="129.54" y="63.5" grouprefs="MICRO-COMPUTER"/>
 <pinref part="EN_SW" gate="G$1" pin="B0"/>
-<wire x1="149.86" y1="21.59" x2="149.86" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="149.86" y="43.18" grouprefs="MICRO-COMPUTER"/>
+<wire x1="139.7" y1="67.31" x2="139.7" y2="88.9" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="139.7" y="88.9" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="162.56" y1="16.51" x2="162.56" y2="43.18" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="162.56" y="43.18" grouprefs="MICRO-COMPUTER"/>
+<wire x1="152.4" y1="62.23" x2="152.4" y2="88.9" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="152.4" y="88.9" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO0"/>
 <pinref part="BOOT-SW" gate="G$1" pin="B0"/>
-<wire x1="220.98" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="238.76" y1="48.26" x2="238.76" y2="44.45" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="210.82" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="228.6" y1="93.98" x2="228.6" y2="90.17" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="254" y1="41.91" x2="254" y2="48.26" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="254" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<junction x="238.76" y="48.26" grouprefs="MICRO-COMPUTER"/>
+<wire x1="243.84" y1="87.63" x2="243.84" y2="93.98" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="243.84" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="228.6" y="93.98" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="CHARGER-IC" gate="G$1" pin="!CHRG"/>
-<wire x1="25.4" y1="143.51" x2="25.4" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="25.4" y1="166.37" x2="25.4" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="BAT-RED" gate="G$1" pin="-"/>
-<wire x1="19.05" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="19.05" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="152.4" x2="25.4" y2="151.13" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="25.4" y1="175.26" x2="25.4" y2="173.99" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="CHARGER-IC" gate="G$1" pin="!STDBY"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="139.7" x2="30.48" y2="143.51" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="30.48" y1="162.56" x2="30.48" y2="166.37" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="151.13" x2="30.48" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="30.48" y1="173.99" x2="30.48" y2="185.42" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="BAT-BLUE" gate="G$1" pin="-"/>
-<wire x1="30.48" y1="162.56" x2="19.05" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="30.48" y1="185.42" x2="19.05" y2="185.42" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 </segment>
 </net>
 <net name="VIN+" class="1">
 <segment>
 <pinref part="BAT-RED" gate="G$1" pin="+"/>
-<wire x1="11.43" y1="152.4" x2="7.62" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="7.62" y1="152.4" x2="7.62" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="11.43" y1="175.26" x2="7.62" y2="175.26" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="7.62" y1="175.26" x2="7.62" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="BAT-BLUE" gate="G$1" pin="+"/>
-<wire x1="7.62" y1="139.7" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="7.62" y1="109.22" x2="7.62" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="11.43" y1="162.56" x2="7.62" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="7.62" y1="162.56" x2="7.62" y2="152.4" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="7.62" y="152.4" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="7.62" y1="162.56" x2="7.62" y2="132.08" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="7.62" y1="132.08" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="11.43" y1="185.42" x2="7.62" y2="185.42" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="7.62" y1="185.42" x2="7.62" y2="175.26" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="7.62" y="175.26" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="CHARGER-IC" gate="G$1" pin="CE"/>
-<wire x1="20.32" y1="139.7" x2="7.62" y2="139.7" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="7.62" y="139.7" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="20.32" y1="162.56" x2="7.62" y2="162.56" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="7.62" y="162.56" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="CHARGER-IC" gate="G$1" pin="VCC"/>
-<wire x1="35.56" y1="114.3" x2="35.56" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="35.56" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<junction x="7.62" y="109.22" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="35.56" y1="137.16" x2="35.56" y2="132.08" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="35.56" y1="132.08" x2="7.62" y2="132.08" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<junction x="7.62" y="132.08" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="24.13" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="24.13" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="80.01" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
-<junction x="7.62" y="86.36"/>
+<wire x1="7.62" y1="102.87" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
+<junction x="7.62" y="109.22"/>
 </segment>
 </net>
 <net name="B+" class="1">
 <segment>
 <pinref part="LDO-IC" gate="A" pin="VIN"/>
-<wire x1="119.38" y1="144.78" x2="119.38" y2="138.43" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<junction x="119.38" y="144.78" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="83.82" y1="144.78" x2="83.82" y2="138.43" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<junction x="83.82" y="144.78" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="C9" gate="G$1" pin="+"/>
-<wire x1="119.38" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="144.78" x2="71.12" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="CHARGER-IC" gate="G$1" pin="BAT"/>
-<wire x1="35.56" y1="139.7" x2="35.56" y2="142.24" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
-<wire x1="35.56" y1="142.24" x2="39.37" y2="142.24" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="35.56" y1="162.56" x2="35.56" y2="165.1" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
+<wire x1="35.56" y1="165.1" x2="39.37" y2="165.1" width="0.1524" layer="91" grouprefs="LI-ION-BATTERY-CHARGER-MODULE"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="142.24" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
-<junction x="35.56" y="142.24"/>
+<wire x1="35.56" y1="165.1" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
+<junction x="35.56" y="165.1"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="VM2"/>
-<wire x1="193.04" y1="182.88" x2="198.12" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="198.12" y1="182.88" x2="198.12" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="160.02" y1="182.88" x2="160.02" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="VM3"/>
-<wire x1="193.04" y1="185.42" x2="198.12" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="198.12" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="198.12" y1="185.42" x2="198.12" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="185.42" x2="160.02" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="160.02" y="185.42" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="160.02" y1="185.42" x2="160.02" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="DRIVER-IC" gate="G$1" pin="VM1"/>
-<wire x1="193.04" y1="210.82" x2="198.12" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="198.12" y="210.82" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="198.12" y1="210.82" x2="198.12" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="198.12" y1="220.98" x2="152.4" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="152.4" y1="220.98" x2="152.4" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="210.82" x2="160.02" y2="210.82" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="160.02" y="210.82" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="160.02" y1="210.82" x2="160.02" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="160.02" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="114.3" y1="220.98" x2="114.3" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="146.05" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="152.4" y1="203.2" x2="152.4" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="152.4" y="205.74" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="35.56" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="205.74" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="144.78" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
-<junction x="106.68" y="205.74"/>
+<wire x1="107.95" y1="203.2" x2="114.3" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="114.3" y1="203.2" x2="114.3" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="114.3" y="205.74" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="35.56" y1="205.74" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="205.74" x2="114.3" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="71.12" y1="144.78" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
+<junction x="71.12" y="205.74" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="BAT" gate="G$1" pin="P$1"/>
 <wire x1="11.43" y1="218.44" x2="11.43" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="11.43" y1="205.74" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
@@ -3217,288 +3217,288 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="RXD" class="0">
 <segment>
 <pinref part="ESP32" gate="G$1" pin="TXD0"/>
-<wire x1="220.98" y1="22.86" x2="223.52" y2="22.86" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<label x="228.346" y="22.86" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICRO-COMPUTER"/>
+<wire x1="210.82" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="218.186" y="68.58" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="RXD"/>
-<wire x1="49.53" y1="-20.32" x2="49.53" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="49.53" y1="-12.7" x2="48.26" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<label x="48.26" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="49.53" y1="5.08" x2="49.53" y2="12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="49.53" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<label x="48.26" y="12.7" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="TXD" class="0">
 <segment>
 <pinref part="ESP32" gate="G$1" pin="RXD0"/>
-<wire x1="220.98" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<label x="223.52" y="25.4" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
+<wire x1="210.82" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="213.36" y="71.12" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="TXD"/>
-<wire x1="46.99" y1="-20.32" x2="46.99" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="46.99" y1="-12.7" x2="45.72" y2="-12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<label x="38.1" y="-12.446" size="1.778" layer="95" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="46.99" y1="5.08" x2="46.99" y2="12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="46.99" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<label x="38.1" y="12.954" size="1.778" layer="95" xref="yes" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="PWMA" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="PWMA"/>
-<wire x1="193.04" y1="208.28" x2="195.58" y2="208.28" width="0.1524" layer="91"/>
-<label x="195.58" y="208.28" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="208.28" x2="160.02" y2="208.28" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="208.28" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO13"/>
-<wire x1="182.88" y1="10.16" x2="180.34" y2="10.16" width="0.1524" layer="91"/>
-<label x="175.26" y="10.16" size="1.016" layer="95" xref="yes"/>
+<wire x1="172.72" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="165.1" y="55.88" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="AIN2" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="AIN2"/>
-<wire x1="193.04" y1="205.74" x2="195.58" y2="205.74" width="0.1524" layer="91"/>
-<label x="195.58" y="205.74" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="205.74" x2="160.02" y2="205.74" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="205.74" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO15"/>
-<wire x1="182.88" y1="-7.62" x2="180.34" y2="-7.62" width="0.1524" layer="91"/>
-<label x="175.26" y="-7.62" size="1.016" layer="95" xref="yes"/>
+<wire x1="172.72" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="165.1" y="38.1" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="AIN1"/>
-<wire x1="193.04" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
-<label x="195.58" y="203.2" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="203.2" x2="160.02" y2="203.2" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="203.2" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO17"/>
-<wire x1="220.98" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
-<label x="228.6" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="210.82" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="218.44" y="86.36" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="BIN1" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="BIN1"/>
-<wire x1="193.04" y1="193.04" x2="195.58" y2="193.04" width="0.1524" layer="91"/>
-<label x="195.58" y="193.04" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="193.04" x2="160.02" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="193.04" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO27"/>
-<wire x1="182.88" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
-<label x="175.26" y="20.32" size="1.016" layer="95" xref="yes"/>
+<wire x1="172.72" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="165.1" y="66.04" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="BIN2" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="BIN2"/>
-<wire x1="193.04" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
-<label x="195.58" y="190.5" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="190.5" x2="160.02" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="190.5" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO25"/>
-<wire x1="182.88" y1="25.4" x2="180.34" y2="25.4" width="0.1524" layer="91"/>
-<label x="175.26" y="25.4" size="1.016" layer="95" xref="yes"/>
+<wire x1="172.72" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="165.1" y="71.12" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="PWMB" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="PWMB"/>
-<wire x1="193.04" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
-<label x="195.58" y="187.96" size="1.016" layer="95" xref="yes"/>
+<wire x1="154.94" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="160.02" y="187.96" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO32"/>
-<wire x1="182.88" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
-<label x="175.26" y="30.48" size="1.016" layer="95" xref="yes"/>
+<wire x1="172.72" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<label x="165.1" y="76.2" size="1.016" layer="95" xref="yes" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
 <pinref part="PWR-SW" gate="1" pin="S"/>
-<wire x1="170.18" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="134.62" y1="144.78" x2="137.16" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="PWR-LED" gate="G$1" pin="+"/>
-<wire x1="172.72" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="173.99" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="172.72" y1="134.62" x2="172.72" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<junction x="172.72" y="144.78"/>
+<wire x1="137.16" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="138.43" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="137.16" y1="134.62" x2="137.16" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<junction x="137.16" y="144.78"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="35.56" x2="139.7" y2="29.21" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="129.54" y1="81.28" x2="129.54" y2="74.93" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="VCC"/>
-<wire x1="193.04" y1="200.66" x2="200.66" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="200.66" x2="162.56" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="PULLUP" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="200.66" x2="205.74" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="210.82" y1="223.52" x2="200.66" y2="223.52" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<wire x1="200.66" y1="223.52" x2="200.66" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<junction x="200.66" y="200.66" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="162.56" y1="200.66" x2="170.18" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="172.72" y1="223.52" x2="162.56" y2="223.52" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="162.56" y1="223.52" x2="162.56" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<junction x="162.56" y="200.66" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="48.26" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="93.98" x2="109.22" y2="91.44" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="ESP32" gate="G$1" pin="3V3"/>
-<wire x1="119.38" y1="45.72" x2="119.38" y2="39.37" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="109.22" y1="91.44" x2="109.22" y2="85.09" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="172.72" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="127" y1="39.37" x2="127" y2="45.72" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
-<wire x1="127" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<junction x="127" y="45.72"/>
-<junction x="119.38" y="45.72"/>
+<wire x1="116.84" y1="85.09" x2="116.84" y2="91.44" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<wire x1="116.84" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91" grouprefs="MICRO-COMPUTER"/>
+<junction x="116.84" y="91.44" grouprefs="MICRO-COMPUTER"/>
+<junction x="109.22" y="91.44" grouprefs="MICRO-COMPUTER"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="PWR-LED" gate="G$1" pin="-"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="181.61" y1="134.62" x2="184.15" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="146.05" y1="134.62" x2="148.59" y2="134.62" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="VCCIO"/>
-<wire x1="40.64" y1="-35.56" x2="38.1" y2="-35.56" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="40.64" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="-35.56" x2="38.1" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="38.1" y1="-63.5" x2="38.1" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="38.1" y1="-83.82" x2="66.04" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="38.1" y1="-10.16" x2="38.1" y2="-38.1" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="38.1" y1="-38.1" x2="38.1" y2="-58.42" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="38.1" y1="-58.42" x2="66.04" y2="-58.42" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="CNV-IC" gate="G$1" pin="RESET"/>
-<wire x1="66.04" y1="-83.82" x2="69.85" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="66.04" y1="-55.88" x2="66.04" y2="-83.82" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="66.04" y="-83.82" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="66.04" y1="-58.42" x2="69.85" y2="-58.42" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="66.04" y1="-30.48" x2="66.04" y2="-58.42" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="66.04" y="-58.42" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="CNV-IC" gate="G$1" pin="3V3OUT"/>
-<wire x1="46.99" y1="-55.88" x2="46.99" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="46.99" y1="-63.5" x2="38.1" y2="-63.5" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="38.1" y="-63.5" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="46.99" y1="-30.48" x2="46.99" y2="-38.1" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="46.99" y1="-38.1" x2="38.1" y2="-38.1" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="38.1" y="-38.1" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="RTS"/>
-<wire x1="52.07" y1="-20.32" x2="52.07" y2="-17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="52.07" y1="5.08" x2="52.07" y2="7.62" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="CNV-IC" gate="G$1" pin="CTS"/>
-<wire x1="52.07" y1="-17.78" x2="54.61" y2="-17.78" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="54.61" y1="-17.78" x2="54.61" y2="-20.32" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="52.07" y1="7.62" x2="54.61" y2="7.62" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="54.61" y1="7.62" x2="54.61" y2="5.08" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="USBDM"/>
-<wire x1="54.61" y1="-55.88" x2="53.34" y2="-55.88" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="54.61" y1="-30.48" x2="53.34" y2="-30.48" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-55.88" x2="53.34" y2="-57.15" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="53.34" y1="-30.48" x2="53.34" y2="-31.75" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="CNV-IC" gate="G$1" pin="USBDP"/>
-<wire x1="57.15" y1="-55.88" x2="60.96" y2="-55.88" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="57.15" y1="-30.48" x2="60.96" y2="-30.48" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="-55.88" x2="60.96" y2="-57.15" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="60.96" y1="-30.48" x2="60.96" y2="-31.75" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-64.77" x2="53.34" y2="-76.2" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="53.34" y1="-76.2" x2="53.34" y2="-101.6" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="53.34" y1="-101.6" x2="58.42" y2="-101.6" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="53.34" y1="-39.37" x2="53.34" y2="-50.8" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="53.34" y1="-50.8" x2="53.34" y2="-76.2" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="53.34" y1="-76.2" x2="58.42" y2="-76.2" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="USB1" gate="G$1" pin="D-"/>
-<wire x1="58.42" y1="-101.6" x2="58.42" y2="-104.14" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="58.42" y1="-76.2" x2="58.42" y2="-78.74" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="69.85" y1="-76.2" x2="53.34" y2="-76.2" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="53.34" y="-76.2" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="69.85" y1="-50.8" x2="53.34" y2="-50.8" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="53.34" y="-50.8" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="USB1" gate="G$1" pin="D+"/>
-<wire x1="60.96" y1="-64.77" x2="60.96" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="60.96" y1="-39.37" x2="60.96" y2="-43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-68.58" x2="60.96" y2="-104.14" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="69.85" y1="-68.58" x2="60.96" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="60.96" y="-68.58" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="60.96" y1="-43.18" x2="60.96" y2="-78.74" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="69.85" y1="-43.18" x2="60.96" y2="-43.18" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="60.96" y="-43.18" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
 <segment>
 <pinref part="USB1" gate="G$1" pin="VBUS"/>
 <pinref part="HUSE" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="-104.14" x2="15.24" y2="-104.14" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="15.24" y1="-104.14" x2="15.24" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="55.88" y1="-78.74" x2="15.24" y2="-78.74" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="-78.74" x2="15.24" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="-96.52" x2="15.24" y2="-93.98" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="31.75" y1="-96.52" x2="15.24" y2="-96.52" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="15.24" y="-96.52" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="-71.12" x2="15.24" y2="-68.58" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="31.75" y1="-71.12" x2="15.24" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="15.24" y="-71.12" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="HUSE" gate="G$1" pin="1"/>
 <pinref part="FERRITE-BEAD" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="-76.2" x2="15.24" y2="-71.12" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="-50.8" x2="15.24" y2="-45.72" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="49.53" x2="7.62" y2="52.07" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="72.39" x2="7.62" y2="74.93" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="59.69" x2="7.62" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="82.55" x2="7.62" y2="85.09" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="FERRITE-BEAD" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="-55.88" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="-30.48" x2="15.24" y2="-15.24" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="CNV-IC" gate="G$1" pin="VCC"/>
-<wire x1="40.64" y1="-40.64" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="15.24" y="-40.64" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="15.24" y1="-33.02" x2="15.24" y2="-40.64" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="40.64" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="15.24" y="-15.24" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="-15.24" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="19.05" y1="-33.02" x2="15.24" y2="-33.02" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="15.24" y="-33.02" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="15.24" y1="-22.86" x2="15.24" y2="-33.02" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="19.05" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="15.24" y="-7.62" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-7.62" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="C10" gate="G$1" pin="+"/>
-<wire x1="19.05" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<junction x="15.24" y="-22.86" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="19.05" y1="2.54" x2="15.24" y2="2.54" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="15.24" y="2.54" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="-6.35" x2="15.24" y2="-15.24" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="15.24" y1="-15.24" x2="15.24" y2="-22.86" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
-<wire x1="7.62" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="15.24" y="-15.24"/>
+<wire x1="15.24" y1="19.05" x2="15.24" y2="10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="2.54" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<wire x1="7.62" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="91" grouprefs="USB-TO-SERIAL-CONVERTER-MODULE"/>
+<junction x="15.24" y="10.16"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="41.91" x2="7.62" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="64.77" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="69.85" x2="7.62" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="92.71" x2="7.62" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POWER_SW" class="0">
 <segment>
 <pinref part="PWR-SW" gate="1" pin="P"/>
 <pinref part="LDO-IC" gate="A" pin="VOUT"/>
-<wire x1="154.94" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="119.38" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 <pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="157.48" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
-<wire x1="157.48" y1="138.43" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
-<junction x="157.48" y="144.78"/>
+<wire x1="121.92" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
+<wire x1="121.92" y1="138.43" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
+<junction x="121.92" y="144.78"/>
 </segment>
 </net>
 </nets>

@@ -1,0 +1,57 @@
+Partlist
+
+Exported from MotorControl.brd at 2021/09/18 16:49
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part              Value                       Package                   Library                     Position (mm)         Orientation
+
+BAT               2p-2.0                      H2-2.0-6X4.5MM            OPL_Connector               (65.15 11.13)         R90
+BAT-BLUE          CLEAR-BLUE-0805             LED-0805                  OPL_Optoelectronics         (42.64 20.02)         R270
+BAT-RED           RED-0805                    LED-0805                  OPL_Optoelectronics         (35.02 20.02)         R90
+BOOT-SW                                       SW4-SMD-6.0X6.0X5.0MM     OPL_Switch                  (4.62 31.72)          R90
+C1                100nf                       C0805                     OPL_Capacitor               (46.45 42.88)         R0
+C2                10uf                        C1206                     OPL_Capacitor               (3.54 22.56)          R270
+C3                22uF/16V(10%)               C1206                     OPL_Capacitor               (11.97 37.8)          R90
+C4                100nf                       C0805                     OPL_Capacitor               (51.53 42.88)         R90
+C5                10nf                        C0805                     OPL_Capacitor               (58.07 15.21)         R0
+C6                100nF/50V(10%)              C0603                     OPL_Capacitor               (19.78 41.61)         R180
+C7                100nF/50V(10%)              C0603                     OPL_Capacitor               (19.78 36.53)         R0
+C8                10uf                        AVX-A                     OPL_Capacitor               (15.24 19.75)         R180
+C9                6.8uF                       CAPPM3528X210N            TCJB685M025R0150            (57.8 8.86)           R270
+C10               4.7uf                       AVX-A                     OPL_Capacitor               (59.15 27.64)         R0
+C11               100nF/50V(10%)              C0603                     OPL_Capacitor               (18.78 29.72)         R90
+C12               100nF/50V(10%)              C0603                     OPL_Capacitor               (10.89 23.56)         R90
+C13               10uf                        C0805                     OPL_Capacitor               (10.382 15.448)       R90
+C14               47PF                        C0402                     OPL_Capacitor               (46.45 47.96)         R270
+C15               47PF                        C0402                     OPL_Capacitor               (61.69 37.8)          R0
+C16               100nf                       C0805                     OPL_Capacitor               (60.42 32.72)         R270
+CHARGER-IC        TP4056                      SOT23-8                   TP4056                      (42.18 7.13)          R0
+CNV-IC            INTERFACE-FT230XS-R(SSOP16) SSOP16-0.635-5X4MM        INTERFACE-FT230XS-R_SSOP16_ (50.26 36.53)         R0
+DRIVER-IC         TB6612FNG                   SOP65P760X160-24N         TB6612FNG                   (18.05 7.13)          R0
+EN_SW                                         SW4-SMD-6.0X6.0X5.0MM     OPL_Switch                  (4.62 44.42)          R270
+ESP32             ESP32-WROOM-32E8M           ESP32WROOM32E8MB          ESP32-WROOM-32              (33.75 40.34)         R0
+FERRITE-BEAD      LI0805H151R-10              FB_LI0805H151R-10         LI0805H151R-10              (54.07 30.18)         R270
+HUSE              SMD0805R035SF               SMD0805R035SF             SMD0805R035SF               (65.5 23.83)          R0
+LDO-IC            SPX3940AM3-L-3-3/TR         SOT-223-3_VAR-AA          SPX3940AM3-L-3-3:TR         (24.86 18.75)         R270
+MOTOR-PIN         4p-2.54                     H4-2.54                   OPL_Connector               (3.35 12.86)          R180
+PULLUP                                        1X02                      pinhead                     (32.75 13.21)         R180
+PWR-LED           YELLOW-0805                 LED-0805                  OPL_Optoelectronics         (33.21 3.59)          R0
+PWR-SW                                        MS243                     switch                      (17.24 49.23)         R0
+R1                10K                         R0603                     OPL_Resistor                (28.94 7.67)          R180
+R2                1K                          R0603                     OPL_Resistor                (43.735 14.718)       R0
+R3                1K                          R0603                     OPL_Resistor                (40.1 14.94)          R0
+R4                10K                         R0603                     OPL_Resistor                (9.62 50.5)           R180
+R5                0.1R                        R0805                     OPL_Resistor                (47.72 27.64)         R270
+R6                300R                        R0603                     OPL_Resistor                (49.99 9.13)          R90
+R7                1K                          R0603                     OPL_Resistor                (50.26 13.67)         R90
+R8                0.1R                        R0805                     OPL_Resistor                (52.8 18.75)          R90
+R9                0.1R                        R0805                     OPL_Resistor                (52.8 23.83)          R270
+R10               27R                         R0805                     OPL_Resistor                (50.26 47.96)         R0
+R11               27R                         R0805                     OPL_Resistor                (60.42 42.88)         R270
+R12               0.1R                        R0805                     OPL_Resistor                (47.72 22.56)         R180
+RPROG             1.2K                        R0805                     OPL_Resistor                (51.42 3.59)          R270
+USB-TO-SERIAL-LED GREEN-0805                  LED-0805                  OPL_Optoelectronics         (12.7 29.45)          R90
+USB1              ZX62-B-5PA                  MICRO-USB5+6P-SMD-0.65-AB OPL_Connector               (56.88 52.23)         R180

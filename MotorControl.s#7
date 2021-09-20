@@ -674,23 +674,23 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-10UF-6.3V-20%-X5R(0402)" urn="urn:adsk.eagle:component:8004332/1" prefix="C" uservalue="yes">
-<description>302010053</description>
+<deviceset name="CERAMIC-10UF-25V-10%-X5R(0805)" urn="urn:adsk.eagle:component:8004315/1" prefix="C" uservalue="yes">
+<description>302010178</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C0402">
+<device name="" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004285/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004286/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0402MRX5R5BB106"/>
+<attribute name="MPN" value="CC0805KKX5R8BB106" constant="no"/>
 <attribute name="VALUE" value="10uf"/>
 </technology>
 </technologies>
@@ -714,29 +714,6 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <technologies>
 <technology name="">
 <attribute name="MPN" value="CC0805KRX7R9BB104" constant="no"/>
-<attribute name="VALUE" value="100nf"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CERAMIC-100NF-25V-10%-X7R(0402)" urn="urn:adsk.eagle:component:8004314/1" prefix="C" uservalue="yes">
-<description>302010024</description>
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004285/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="CC0402KRX7R8BB104" constant="no"/>
 <attribute name="VALUE" value="100nf"/>
 </technology>
 </technologies>
@@ -832,23 +809,23 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-10NF-50V-10%-X7R(0402)" urn="urn:adsk.eagle:component:8004303/1" prefix="C" uservalue="yes">
-<description>302010006</description>
+<deviceset name="CERAMIC-10NF-50V-5%-X7R(0805)" urn="urn:adsk.eagle:component:8004362/1" prefix="C" uservalue="yes">
+<description>302010175</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C0402">
+<device name="" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8004285/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8004286/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0402KRX7R9BB103"/>
+<attribute name="MPN" value="CC0805JRX7R9BB103"/>
 <attribute name="VALUE" value="10nf"/>
 </technology>
 </technologies>
@@ -2499,8 +2476,11 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <class number="0" name="default" width="0.3556" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="Power" width="0.9144" drill="0">
+<class number="1" name="Power" width="0.508" drill="0">
 <clearance class="1" value="0.508"/>
+</class>
+<class number="2" name="Motor" width="0.508" drill="0">
+<clearance class="2" value="0.3556"/>
 </class>
 </classes>
 <groups>
@@ -2527,7 +2507,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="RPROG" library="OPL_Resistor" deviceset="SMD-RES-1.2K-1%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="1.2K"/>
 <part name="D1" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-RED(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="RED-0805"/>
 <part name="USB1" library="OPL_Connector" deviceset="MICRO-USB-SMD(ZX62-B-5PA)" device="" package3d_urn="urn:adsk.eagle:package:8004561/1" value="ZX62-B-5PA"/>
-<part name="C5" library="OPL_Capacitor" deviceset="CERAMIC-100NF-25V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="100nf"/>
+<part name="C5" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
 <part name="R7" library="OPL_Resistor" deviceset="SMD-RES-1K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="1K"/>
 <part name="F1" library="SMD0805R035SF" deviceset="SMD0805R035SF" device=""/>
 <part name="R1" library="OPL_Resistor" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004941/1" value="10K"/>
@@ -2546,7 +2526,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="C12" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="C11" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:8004287/1" value="100nF/50V(10%)"/>
 <part name="BAT" library="OPL_Connector" deviceset="DIP-JST-2P-2.0" device="" package3d_urn="urn:adsk.eagle:package:8004542/1" value="2p-2.0"/>
-<part name="C13" library="OPL_Capacitor" deviceset="CERAMIC-10UF-6.3V-20%-X5R(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="10uf"/>
+<part name="C13" library="OPL_Capacitor" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10uf"/>
 <part name="D4" library="OPL_Optoelectronics" deviceset="SMD-LED-CLEAR-BLUE(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004829/1" value="CLEAR-BLUE-0805"/>
 <part name="C2" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
 <part name="MOTOR_PIN" library="OPL_Connector" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" package3d_urn="urn:adsk.eagle:package:8004499/1" value="4p-2.54"/>
@@ -2568,8 +2548,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <part name="C14" library="OPL_Capacitor" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="47PF"/>
 <part name="C15" library="OPL_Capacitor" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="47PF"/>
 <part name="SUPPLY3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="OPL_Capacitor" deviceset="CERAMIC-10NF-50V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="10nf"/>
-<part name="C16" library="OPL_Capacitor" deviceset="CERAMIC-100NF-25V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:8004285/1" value="100nf"/>
+<part name="C6" library="OPL_Capacitor" deviceset="CERAMIC-10NF-50V-5%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="10nf"/>
+<part name="C16" library="OPL_Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004286/1" value="100nf"/>
 <part name="C17" library="OPL_Capacitor" deviceset="TANTALUM-SMD-4.7UF-16V(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:8004284/1" value="4.7uf"/>
 <part name="SUPPLY5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="OPL_Resistor" deviceset="SMD-RES-0.1R-5%-1/8W(0805)" device="" package3d_urn="urn:adsk.eagle:package:8004935/1" value="0.1R"/>
@@ -3008,7 +2988,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="165.1" y1="142.24" x2="165.1" y2="124.46" width="0.1524" layer="91" grouprefs="LOW-DROPOUT-REGULATER-MODULE"/>
 </segment>
 </net>
-<net name="AO1" class="1">
+<net name="AO1" class="2">
 <segment>
 <pinref part="IC2" gate="G$1" pin="AO1_1"/>
 <pinref part="IC2" gate="G$1" pin="AO1_2"/>
@@ -3022,7 +3002,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="119.38" y1="218.44" x2="120.65" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AO2" class="1">
+<net name="AO2" class="2">
 <segment>
 <wire x1="149.86" y1="208.28" x2="149.86" y2="200.66" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="AO2_2"/>
@@ -3037,7 +3017,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="121.92" y1="218.44" x2="123.19" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO1" class="1">
+<net name="BO1" class="2">
 <segment>
 <wire x1="144.78" y1="198.12" x2="144.78" y2="185.42" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO1_2"/>
@@ -3052,7 +3032,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="124.46" y1="218.44" x2="125.73" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BO2" class="1">
+<net name="BO2" class="2">
 <segment>
 <wire x1="147.32" y1="200.66" x2="147.32" y2="195.58" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
 <pinref part="IC2" gate="G$1" pin="BO2_2"/>
@@ -3510,7 +3490,7 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="7.62" y1="69.85" x2="7.62" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="POWER_SW" class="0">
 <segment>
 <pinref part="POWER_SW" gate="1" pin="P"/>
 <pinref part="U4" gate="A" pin="VOUT"/>
@@ -3526,7 +3506,6 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </sheets>
 <errors>
 <approved hash="117,1,73.66,-104.14,SHIELD,,,,,"/>
-<approved hash="113,1,210.594,224.659,PULLUP,,,,,"/>
 <approved hash="113,1,153.251,12.7,EN_SW,,,,,"/>
 <approved hash="113,1,242.151,35.56,BOOT_SW,,,,,"/>
 <approved hash="113,1,169.845,148.295,POWER_SW,,,,,"/>
