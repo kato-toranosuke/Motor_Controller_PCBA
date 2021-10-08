@@ -1734,7 +1734,7 @@ design rules under a new name.
 <wire x1="31.48" y1="12.0396" x2="29.067" y2="9.6266" width="0.3556" layer="1"/>
 <wire x1="29.067" y1="8.5852" x2="28.94" y2="8.432" width="0.3556" layer="1"/>
 </signal>
-<signal name="N$29">
+<signal name="EN">
 <contactref element="R4" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="ESP32" pad="3"/>
@@ -1763,7 +1763,7 @@ design rules under a new name.
 <via x="11.8966" y="47.3837" extent="1-16" drill="0.35"/>
 <via x="23.20595" y="42.01795" extent="1-16" drill="0.35"/>
 </signal>
-<signal name="N$30">
+<signal name="BOOT">
 <contactref element="ESP32" pad="25"/>
 <contactref element="BOOT-SW" pad="2"/>
 <contactref element="C12" pad="2"/>
