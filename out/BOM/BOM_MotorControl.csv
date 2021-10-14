@@ -15,12 +15,13 @@ R8,1,RC0805JR-071KL,
 C3,1,CC0805MKX5R5BB226,
 "R10, R11",2,RC0805JR-071KL,
 R6,1,RC0603FR-071K5L,
-C10,1,TAJA475*016#NJ,
+C10,1,TAJA475K016RNJ,
 "C14, C15",2,CC0402JRNPO9BN470,
 MOTOR-PIN,1,F185-1104A1BSYA1,
 C9,1,TCJB685M025R0150,
 POWER-SW,1,A11JP,https://www.mouser.co.uk/ProductDetail/NKK-Switches/A11JP?qs=KqcCwYXy5KGYGAOWVYZnow%3D%3D
-BAT-BLUE,1,EL-17-215/BHC-AN1P2/3T,
+BAT-BLUE,1,EL-17-215/BHC-AN1P2/3T,"https://www.mouser.jp/ProductDetail/Everlight/EL-17-215-BHC-AN1P2-3T?qs=8bIirOhZLT2xoHR70oetLA==
+https://www.snapeda.com/parts/EL-17-215/BHC-AN1P2/3T/Everlight/view-part/?ref=mouser"
 IC1,1,DW01A,"http://hmsemi.com/downfile/DW01A.PDF
 https://www.ic-fortune.com/upload/Download/DW01x-DS-17_EN_53550.pdf"
 ESP 32,1,ESP32-WROOM-32E (8MB),https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROOM-32E-8MB?qs=GBLSl2AkirsjshqvD9slKA%3D%3D
@@ -35,4 +36,4 @@ LDO-IC,1,SPX3940AM3-L-3-3/TR,
 DRIVER-IC,1,TB6612FNG,https://www.mouser.jp/datasheet/2/408/TB6612FNG_datasheet_en_20141001-708260.pdf
 CHARGER-IC,1,TP4056,
 PWR-LED,1,17-215UYC/S530-A3/TR8,
-USB1,1,ZX62-B-5PA,
+USB1,1,ZX62-B-5PA,https://www.digikey.jp/product-detail/ja/hirose-electric-co-ltd/ZX62-B-5PA-33/H125270CT-ND/5994756?utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_JP_Product&utm_term=&productid=&gclid=Cj0KCQjwwY-LBhD6ARIsACvT72OpxQedGxjqdaMLEjsCUOUgmv8LIQc4ccHhv1YdbYOU4LcKdMVhhdIaAg7WEALw_wcB

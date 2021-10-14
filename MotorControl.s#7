@@ -3486,6 +3486,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <wire x1="5.08" y1="187.96" x2="-5.08" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="16.51" y1="187.96" x2="6.35" y2="187.96" width="0.1524" layer="91"/>
 <label x="157.48" y="213.36" size="1.778" layer="95"/>
+<junction x="6.35" y="187.96"/>
+<junction x="-5.08" y="205.74"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -3553,8 +3555,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="BIN1" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="BIN1"/>
-<wire x1="154.94" y1="193.04" x2="160.02" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<label x="160.02" y="193.04" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="193.04" x2="157.48" y2="193.04" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="157.48" y="193.04" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO27"/>
@@ -3565,8 +3567,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="BIN2" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="BIN2"/>
-<wire x1="154.94" y1="190.5" x2="160.02" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<label x="160.02" y="190.5" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="157.48" y="190.5" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO25"/>
@@ -3577,8 +3579,8 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 <net name="PWMB" class="0">
 <segment>
 <pinref part="DRIVER-IC" gate="G$1" pin="PWMB"/>
-<wire x1="154.94" y1="187.96" x2="160.02" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
-<label x="160.02" y="187.96" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
+<wire x1="154.94" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91" grouprefs="MOTOR-DRIVER-MODULE"/>
+<label x="157.48" y="187.96" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DRIVER-MODULE"/>
 </segment>
 <segment>
 <pinref part="ESP32" gate="G$1" pin="IO32"/>
@@ -3794,6 +3796,15 @@ Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,15.24,137.16,IC1,VCC,N$18,,,"/>
+<approved hash="104,1,30.48,137.16,IC1,GND,B-,,,"/>
+<approved hash="117,1,73.66,-78.74,SHIELD,,,,,"/>
+<approved hash="113,1,172.494,224.659,PULLUP,,,,,"/>
+<approved hash="113,1,143.091,58.42,EN_SW,,,,,"/>
+<approved hash="113,1,231.991,81.28,BOOT-SW,,,,,"/>
+<approved hash="113,1,132.165,148.295,PWR-SW,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
